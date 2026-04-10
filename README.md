@@ -59,4 +59,4 @@
 
 ---
 
-![Visitor Count](https://komarev.com/ghpvc/?username=ziad-wdev&style=for-the-badge&label=Profile+Views)
+![Visitor Count](https://komarev.com/ghpvc/?username=ziad-wdev&style=for-the-badge&color=141321&label=Profile+Views)
