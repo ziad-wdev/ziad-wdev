@@ -49,14 +49,14 @@
 
 <div align="center">
 
-[![GitHub Stats](./generated/github-stats.svg)](https://helio-github-stats.vercel.app)
+[![GitHub Stats](./.generated/github-stats.svg)](https://helio-github-stats.vercel.app)
 
-[![GitHub Streak](./generated/streak-stats.svg)](https://github-streak-stats-ruby.vercel.app)
+[![GitHub Streak](./.generated/streak-stats.svg)](https://github-streak-stats-ruby.vercel.app)
 
-[![Top Languages](./generated/top-langs.svg)](https://helio-github-stats.vercel.app)
+[![Top Languages](./.generated/top-langs.svg)](https://helio-github-stats.vercel.app)
 
 </div>
 
 ---
 
-![Visitor Count](https://komarev.com/ghpvc/?username=ziad-wdev&style=for-the-badge&color=141321&label=Profile+Views)
+![Visitor Count](https://komarev.com/ghpvc/?username=ziad-wdev&style=for-the-badge&label=Profile+Views)
