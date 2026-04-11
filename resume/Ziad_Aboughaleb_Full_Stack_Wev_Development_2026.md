@@ -66,17 +66,3 @@ Apr 2026 -- Apr 2026
 - Developed persistent **dark/light theme support** using localStorage and optimized UI performance with the **React Compiler**, improving rendering efficiency.
 
 
-
-## **Quizzler -- Interactive Quiz Application**
-
-Apr 2026 -- Apr 2026
-
-**Links:** [GitHub Repo](https://github.com/ziad-wdev/Quizzler) | [Live Demo](https://ziad-wdev.github.io/Quizzler/)
-
-- Developed an interactive quiz application using **Next.js 16 (App Router) and React 19**, delivering dynamic question sets from the **Open Trivia Database API**.
-
-- enforced a **real-time countdown timer and automated scoring system**, enhancing user engagement and game interactivity.
-
-- Designed a responsive and accessible UI with **Tailwind CSS v4**, optimizing performance and usability across mobile and desktop devices.
-
-

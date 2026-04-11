@@ -192,24 +192,3 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
 
   ],
 )
-
-#regular-entry(
-  [
-    #strong[Quizzler -- Interactive Quiz Application]
-
-  ],
-  [
-    Apr 2026 -- Apr 2026
-
-  ],
-  main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/Quizzler")[GitHub Repo] | #link("https://ziad-wdev.github.io/Quizzler/")[Live Demo]]
-
-    - Developed an interactive quiz application using #strong[Next.js 16 (App Router) and React 19], delivering dynamic question sets from the #strong[Open Trivia Database API].
-
-    - enforced a #strong[real-time countdown timer and automated scoring system], enhancing user engagement and game interactivity.
-
-    - Designed a responsive and accessible UI with #strong[Tailwind CSS v4], optimizing performance and usability across mobile and desktop devices.
-
-  ],
-)

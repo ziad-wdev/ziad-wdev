@@ -58,15 +58,6 @@ cv:
           - Developed a production-ready contact system using **EmailJS and TanStack Form** with client-side validation and real-time feedback via **Sonner notifications**.
           - Developed persistent **dark/light theme support** using localStorage and optimized UI performance with the **React Compiler**, improving rendering efficiency.
 
-      - name: Quizzler -- Interactive Quiz Application
-        start_date: 2026-04
-        end_date: 2026-04
-        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/Quizzler) | [Live Demo](https://ziad-wdev.github.io/Quizzler/)"
-        highlights:
-          - Developed an interactive quiz application using **Next.js 16 (App Router) and React 19**, delivering dynamic question sets from the **Open Trivia Database API**.
-          - enforced a **real-time countdown timer and automated scoring system**, enhancing user engagement and game interactivity.
-          - Designed a responsive and accessible UI with **Tailwind CSS v4**, optimizing performance and usability across mobile and desktop devices.
-
 design:
   theme: engineeringresumes
   page:
