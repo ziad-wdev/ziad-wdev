@@ -1,5 +1,5 @@
 cv:
-  name: "Ziad Aboughaleb"
+  name: "ziad aboughaleb"
   headline: "Full-Stack Web Developer"
   location: "Shebin El-Kom, Menoufia, Egypt"
   email: "ziadahmed2371@gmail.com"
@@ -37,7 +37,7 @@ cv:
       - label: Back-end
         details: Node.js, Express, MongoDB
       - label: Tools
-        details: Git, GitHub, Vercel
+        details: Git, GitHub, Vercel, npm
 
     projects:
       - name: DigitalPro -- Marketing Agency Landing Page
@@ -58,14 +58,23 @@ cv:
           - Developed a production-ready contact system using **EmailJS and TanStack Form** with client-side validation and real-time feedback via **Sonner notifications**.
           - Developed persistent **dark/light theme support** using localStorage and optimized UI performance with the **React Compiler**, improving rendering efficiency.
 
+      - name: Quizzler -- Interactive Quiz Application
+        start_date: 2026-04
+        end_date: 2026-04
+        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/Quizzler) | [Live Demo](https://ziad-wdev.github.io/Quizzler/)"
+        highlights:
+          - Developed an interactive quiz application using **Next.js 16 (App Router) and React 19**, delivering dynamic question sets from the **Open Trivia Database API**.
+          - enforced a **real-time countdown timer and automated scoring system**, enhancing user engagement and game interactivity.
+          - Designed a responsive and accessible UI with **Tailwind CSS v4**, optimizing performance and usability across mobile and desktop devices.
+
 design:
   theme: engineeringresumes
   page:
     size: a4
-    top_margin: 0.7in
-    bottom_margin: 0.7in
-    left_margin: 0.7in
-    right_margin: 0.7in
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
     show_footer: false
     show_top_note: true
   colors:
@@ -79,22 +88,22 @@ design:
     top_note: rgb(128, 128, 128)
   typography:
     line_spacing: 0.6em
-    alignment: justified-with-no-hyphenation
+    alignment: left
     date_and_location_column_alignment: right
     font_family:
-      body: Roboto
-      name: Roboto
-      headline: Roboto
-      connections: Roboto
-      section_titles: Roboto
+      body: Arial
+      name: Arial
+      headline: Arial
+      connections: Arial
+      section_titles: Arial
     font_size:
       body: 10pt
       name: 24pt
       headline: 10pt
       connections: 10pt
-      section_titles: 1.25em
+      section_titles: 14pt
     small_caps:
-      name: false
+      name: true
       headline: false
       connections: false
       section_titles: false
@@ -112,9 +121,9 @@ design:
     photo_position: left
     photo_space_left: 0.4cm
     photo_space_right: 0.4cm
-    space_below_name: 0.7cm
-    space_below_headline: 0.7cm
-    space_below_connections: 0.7cm
+    space_below_name: 0.4cm
+    space_below_headline: 0.4cm
+    space_below_connections: 0.4cm
     connections:
       phone_number_format: international
       hyperlink: true
@@ -125,12 +134,12 @@ design:
   section_titles:
     type: with_partial_line
     line_thickness: 1pt
-    space_above: 0.5cm
-    space_below: 0.3cm
+    space_above: 0.6cm
+    space_below: 0.4cm
   sections:
     allow_page_break: true
-    space_between_regular_entries: 1.2em
-    space_between_text_based_entries: 0.3em
+    space_between_regular_entries: 1.4em
+    space_between_text_based_entries: 0.4em
     show_time_spans_in: []
   entries:
     date_and_location_width: 4.15cm
@@ -146,20 +155,20 @@ design:
       bullet: ●
       nested_bullet: ●
       space_left: 0cm
-      space_above: 0.12cm
-      space_between_items: 0.12cm
+      space_above: 0.15cm
+      space_between_items: 0.18cm
       space_between_bullet_and_text: 0.5em
   templates:
-    footer: "*NAME -- PAGE_NUMBER/TOTAL_PAGES*"
+    footer: "*NAME – PAGE_NUMBER/TOTAL_PAGES*"
     top_note: "*LAST_UPDATED CURRENT_DATE*"
     single_date: MONTH_ABBREVIATION YEAR
-    date_range: START_DATE -- END_DATE
+    date_range: START_DATE – END_DATE
     time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
     one_line_entry:
       main_column: "**LABEL:** DETAILS"
     education_entry:
       main_column: |-
-        **INSTITUTION** -- LOCATION
+        **INSTITUTION** – LOCATION
         DEGREE_WITH_AREA
         SUMMARY
         HIGHLIGHTS
@@ -167,13 +176,13 @@ design:
       date_and_location_column: DATE
     normal_entry:
       main_column: |-
-        **NAME** -- LOCATION
+        **NAME** – LOCATION
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: DATE
     experience_entry:
       main_column: |-
-        **COMPANY** -- LOCATION
+        **COMPANY** – LOCATION
         POSITION
         SUMMARY
         HIGHLIGHTS
@@ -188,9 +197,9 @@ design:
 
 settings:
   render_command:
-    typst_path: NAME_IN_SNAKE_CASE_Full_Stack_Wev_Development_2026.typ
-    pdf_path: NAME_IN_SNAKE_CASE_Full_Stack_Wev_Development_2026.pdf
-    markdown_path: NAME_IN_SNAKE_CASE_Full_Stack_Wev_Development_2026.md
-    html_path: NAME_IN_SNAKE_CASE_Full_Stack_Wev_Development_2026.html
-    png_path: NAME_IN_SNAKE_CASE_Full_Stack_Wev_Development_2026.png
+    typst_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.typ
+    pdf_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.pdf
+    markdown_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.md
+    html_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.html
+    png_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.png
     dont_generate_png: true

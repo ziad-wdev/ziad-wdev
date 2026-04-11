@@ -1,4 +1,4 @@
-# Ziad Aboughaleb's CV
+# ziad aboughaleb's CV
 
 - Phone: +20 10 03460524
 - Email: [ziadahmed2371@gmail.com](mailto:ziadahmed2371@gmail.com)
@@ -14,7 +14,7 @@ Driving full-stack web solutions as a **MERN** and **Next.js** developer, implem
 
 # Education
 ## **SEF Academy**
-Nov 2025 -- Apr 2026
+Nov 2025 – Apr 2026
 
  Full Stack Web Development
 
@@ -23,7 +23,7 @@ Nov 2025 -- Apr 2026
 
 
 ## **Faculty of Electronic Engineering, Menoufia University**
-Oct 2023 -- present
+Oct 2023 – present
 
  Electrical, Electronics, and Communications Engineering
 
@@ -36,12 +36,12 @@ Oct 2023 -- present
 
 **Back-end:** Node.js, Express, MongoDB
 
-**Tools:** Git, GitHub, Vercel
+**Tools:** Git, GitHub, Vercel, npm
 
 # Projects
 ## **DigitalPro -- Marketing Agency Landing Page**
 
-Mar 2026 -- Mar 2026
+Mar 2026 – Mar 2026
 
 **Links:** [GitHub Repo](https://github.com/ziad-wdev/DigitalPro) | [Live Demo](https://ziad-wdev.github.io/DigitalPro/)
 
@@ -55,7 +55,7 @@ Mar 2026 -- Mar 2026
 
 ## **ziad.dev -- Personal Portfolio**
 
-Apr 2026 -- Apr 2026
+Apr 2026 – Apr 2026
 
 **Links:** [GitHub Repo](https://github.com/ziad-wdev/portfolio) | [Live Demo](https://ziad-wdev.vercel.app/)
 
@@ -64,5 +64,19 @@ Apr 2026 -- Apr 2026
 - Developed a production-ready contact system using **EmailJS and TanStack Form** with client-side validation and real-time feedback via **Sonner notifications**.
 
 - Developed persistent **dark/light theme support** using localStorage and optimized UI performance with the **React Compiler**, improving rendering efficiency.
+
+
+
+## **Quizzler -- Interactive Quiz Application**
+
+Apr 2026 – Apr 2026
+
+**Links:** [GitHub Repo](https://github.com/ziad-wdev/Quizzler) | [Live Demo](https://ziad-wdev.github.io/Quizzler/)
+
+- Developed an interactive quiz application using **Next.js 16 (App Router) and React 19**, delivering dynamic question sets from the **Open Trivia Database API**.
+
+- enforced a **real-time countdown timer and automated scoring system**, enhancing user engagement and game interactivity.
+
+- Designed a responsive and accessible UI with **Tailwind CSS v4**, optimizing performance and usability across mobile and desktop devices.
 
 

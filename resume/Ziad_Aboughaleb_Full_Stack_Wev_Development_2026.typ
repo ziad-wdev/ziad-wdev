@@ -3,17 +3,17 @@
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
-  name: "Ziad Aboughaleb",
-  title: "Ziad Aboughaleb - CV",
-  footer: context { [#emph[Ziad Aboughaleb -- #str(here().page())\/#str(counter(page).final().first())]] },
+  name: "ziad aboughaleb",
+  title: "ziad aboughaleb - CV",
+  footer: context { [#emph[ziad aboughaleb – #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Apr 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
+  page-top-margin: 0.5in,
+  page-bottom-margin: 0.5in,
+  page-left-margin: 0.5in,
+  page-right-margin: 0.5in,
   page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
@@ -25,19 +25,19 @@
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
-  typography-alignment: "justified-with-no-hyphenation",
+  typography-alignment: "left",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Roboto",
-  typography-font-family-name: "Roboto",
-  typography-font-family-headline: "Roboto",
-  typography-font-family-connections: "Roboto",
-  typography-font-family-section-titles: "Roboto",
+  typography-font-family-body: "Arial",
+  typography-font-family-name: "Arial",
+  typography-font-family-headline: "Arial",
+  typography-font-family-connections: "Arial",
+  typography-font-family-section-titles: "Arial",
   typography-font-size-body: 10pt,
   typography-font-size-name: 24pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.25em,
-  typography-small-caps-name: false,
+  typography-font-size-section-titles: 14pt,
+  typography-small-caps-name: true,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
@@ -49,9 +49,9 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.7cm,
-  header-space-below-headline: 0.7cm,
-  header-space-below-connections: 0.7cm,
+  header-space-below-name: 0.4cm,
+  header-space-below-headline: 0.4cm,
+  header-space-below-connections: 0.4cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
@@ -59,11 +59,11 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_partial_line",
   section-titles-line-thickness: 1pt,
-  section-titles-space-above: 0.5cm,
-  section-titles-space-below: 0.3cm,
+  section-titles-space-above: 0.6cm,
+  section-titles-space-below: 0.4cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.3em,
-  sections-space-between-regular-entries: 1.2em,
+  sections-space-between-text-based-entries: 0.4em,
+  sections-space-between-regular-entries: 1.4em,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
@@ -75,18 +75,18 @@
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 0.12cm,
-  entries-highlights-space-between-items: 0.12cm,
+  entries-highlights-space-above: 0.15cm,
+  entries-highlights-space-between-items: 0.18cm,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
     month: 4,
-    day: 11,
+    day: 12,
   ),
 )
 
 
-= Ziad Aboughaleb
+= ziad aboughaleb
 
   #headline([Full-Stack Web Developer])
 
@@ -113,7 +113,7 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
 
   ],
   [
-    Nov 2025 -- Apr 2026
+    Nov 2025 – Apr 2026
 
   ],
   main-column-second-row: [
@@ -130,7 +130,7 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
 
   ],
   [
-    Oct 2023 -- present
+    Oct 2023 – present
 
   ],
   main-column-second-row: [
@@ -147,7 +147,7 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
 
 #strong[Back-end:] Node.js, Express, MongoDB
 
-#strong[Tools:] Git, GitHub, Vercel
+#strong[Tools:] Git, GitHub, Vercel, npm
 
 == Projects
 
@@ -157,7 +157,7 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
 
   ],
   [
-    Mar 2026 -- Mar 2026
+    Mar 2026 – Mar 2026
 
   ],
   main-column-second-row: [
@@ -178,7 +178,7 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
 
   ],
   [
-    Apr 2026 -- Apr 2026
+    Apr 2026 – Apr 2026
 
   ],
   main-column-second-row: [
@@ -189,6 +189,27 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
     - Developed a production-ready contact system using #strong[EmailJS and TanStack Form] with client-side validation and real-time feedback via #strong[Sonner notifications].
 
     - Developed persistent #strong[dark\/light theme support] using localStorage and optimized UI performance with the #strong[React Compiler], improving rendering efficiency.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Quizzler -- Interactive Quiz Application]
+
+  ],
+  [
+    Apr 2026 – Apr 2026
+
+  ],
+  main-column-second-row: [
+    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/Quizzler")[GitHub Repo] | #link("https://ziad-wdev.github.io/Quizzler/")[Live Demo]]
+
+    - Developed an interactive quiz application using #strong[Next.js 16 (App Router) and React 19], delivering dynamic question sets from the #strong[Open Trivia Database API].
+
+    - enforced a #strong[real-time countdown timer and automated scoring system], enhancing user engagement and game interactivity.
+
+    - Designed a responsive and accessible UI with #strong[Tailwind CSS v4], optimizing performance and usability across mobile and desktop devices.
 
   ],
 )
