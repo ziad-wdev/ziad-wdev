@@ -59,11 +59,11 @@ Apr 2026 – Apr 2026
 
 **Links:** [GitHub Repo](https://github.com/ziad-wdev/portfolio) | [Live Demo](https://ziad-wdev.vercel.app/)
 
-- Built a fully responsive portfolio with **React 19 and Vite 8**, integrating dynamic project data via **GitHub API** and **Microlink API** to automate content updates.
+- Built a fully responsive portfolio with **Next.js 16 and TypeScript**, integrating dynamic project data via the **GitHub API and Microlink API** to automate content updates.
 
-- Implemented a fully functional contact form using **EmailJS** and **TanStack Form**, with real-time validation and feedback via **Sonner notifications**.
+- Implemented a production-ready contact system using **EmailJS and TanStack Form**, with client-side validation and real-time feedback via **Sonner notifications**.
 
-- Added persistent **dark/light mode** using localStorage and improved rendering performance using the **React Compiler**.
+- Added persistent **dark/light theme support** using localStorage and optimized rendering performance with modern React features.
 
 
 
