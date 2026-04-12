@@ -1,5 +1,5 @@
 cv:
-  name: "ziad aboughaleb"
+  name: "Ziad Aboughaleb"
   headline: "Full-Stack Web Developer"
   location: "Shebin El-Kom, Menoufia, Egypt"
   email: "ziadahmed2371@gmail.com"
@@ -15,7 +15,7 @@ cv:
   sections:
     summary:
       - >
-        Driving full-stack web solutions as a **MERN** and **Next.js** developer, implementing responsive UIs and optimized builds that reduce bundle sizes and enhance rendering efficiency. Leverage **TypeScript**, **Tailwind CSS**, and **REST APIs** to ship scalable, high-performance web applications with measurable gains in speed and usability.
+        Full-Stack Web Developer specializing in **MERN** and **Next.js**, building scalable and high-performance web applications. Skilled in **TypeScript**, **Tailwind CSS**, and **REST APIs**, with a focus on optimizing bundle size, improving rendering efficiency, and delivering responsive, user-friendly interfaces.
 
     education:
       - institution: "SEF Academy"
@@ -23,49 +23,49 @@ cv:
         start_date: 2025-11
         end_date: 2026-04
         highlights:
-          - "Front-end Web Development Degree: **98.92%**"
+          - "Front-End Web Development Program: **98.92%**"
       - institution: "Faculty of Electronic Engineering, Menoufia University"
         area: "Electrical, Electronics, and Communications Engineering"
         start_date: 2023-10
         end_date: present
         highlights:
-          - "**Relevant Coursework:** Data Structures & Algorithms, Digital Logic."
+          - "**Relevant Coursework:** Data Structures & Algorithms, Digital Logic"
 
     skills:
-      - label: Front-end
-        details: HTML, CSS, JS, React.js, Next.js, TypeScript, Tailwind CSS
-      - label: Back-end
+      - label: Front-End
+        details: HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS
+      - label: Back-End
         details: Node.js, Express, MongoDB
       - label: Tools
         details: Git, GitHub, Vercel, npm
 
     projects:
-      - name: DigitalPro -- Marketing Agency Landing Page
+      - name: DigitalPro (Marketing Agency Landing Page)
         start_date: 2026-03
         end_date: 2026-03
         summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/DigitalPro) | [Live Demo](https://ziad-wdev.github.io/DigitalPro/)"
         highlights:
-          - Engineered a responsive single-page marketing website using **React 19, Tailwind CSS v4, and Vite** to present services, team members, and business metrics.
-          - Implemented **smooth-scroll navigation, sticky header, and interactive UI animations** to enhance user experience and accessibility across devices.
-          - Structured modular, reusable components and optimized build performance with **Vite**, improving load speed and maintainability.
+          - Built a responsive marketing landing page using **React 19, Tailwind CSS v4, and Vite** to showcase services, team members, and core business metrics.
+          - Implemented **smooth scrolling, sticky navigation, and UI animations**, improving overall interaction experience.
+          - Designed a reusable component architecture and optimized build performance with **Vite**, enhancing load speed and maintainability.
 
-      - name: ziad.dev -- Personal Portfolio
+      - name: Personal Portfolio Website (ziad.dev)
         start_date: 2026-04
         end_date: 2026-04
         summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/portfolio) | [Live Demo](https://ziad-wdev.vercel.app/)"
         highlights:
-          - Engineered a fully responsive portfolio using **React 19 and Vite 8**, integrating dynamic project data via **GitHub API and Microlink API** to eliminate manual updates.
-          - Developed a production-ready contact system using **EmailJS and TanStack Form** with client-side validation and real-time feedback via **Sonner notifications**.
-          - Developed persistent **dark/light theme support** using localStorage and optimized UI performance with the **React Compiler**, improving rendering efficiency.
+          - Built a fully responsive portfolio with **React 19 and Vite 8**, integrating dynamic project data via **GitHub API** and **Microlink API** to automate content updates.
+          - Implemented a fully functional contact form using **EmailJS** and **TanStack Form**, with real-time validation and feedback via **Sonner notifications**.
+          - Added persistent **dark/light mode** using localStorage and improved rendering performance using the **React Compiler**.
 
-      - name: Quizzler -- Interactive Quiz Application
+      - name: Quizzler (Interactive Quiz Application)
         start_date: 2026-04
         end_date: 2026-04
         summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/Quizzler) | [Live Demo](https://ziad-wdev.github.io/Quizzler/)"
         highlights:
-          - Developed an interactive quiz application using **Next.js 16 (App Router) and React 19**, delivering dynamic question sets from the **Open Trivia Database API**.
-          - enforced a **real-time countdown timer and automated scoring system**, enhancing user engagement and game interactivity.
-          - Designed a responsive and accessible UI with **Tailwind CSS v4**, optimizing performance and usability across mobile and desktop devices.
+          - Built an interactive quiz application using **Next.js (App Router) and React 19**, fetching dynamic questions via the **Open Trivia Database API**.
+          - Created a **real-time countdown timer and automated scoring system**, increasing user engagement.
+          - Designed a responsive and accessible UI using **Tailwind CSS v4**, ensuring consistent performance across mobile and desktop devices.
 
 design:
   theme: engineeringresumes
@@ -91,11 +91,11 @@ design:
     alignment: left
     date_and_location_column_alignment: right
     font_family:
-      body: Arial
-      name: Arial
-      headline: Arial
-      connections: Arial
-      section_titles: Arial
+      body: Roboto
+      name: Roboto
+      headline: Roboto
+      connections: Roboto
+      section_titles: Roboto
     font_size:
       body: 10pt
       name: 24pt
@@ -197,9 +197,9 @@ design:
 
 settings:
   render_command:
-    typst_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.typ
-    pdf_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.pdf
-    markdown_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.md
-    html_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.html
-    png_path: Ziad_Aboughaleb_Full_Stack_Wev_Development_2026.png
+    typst_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.typ
+    pdf_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.pdf
+    markdown_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.md
+    html_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.html
+    png_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.png
     dont_generate_png: true

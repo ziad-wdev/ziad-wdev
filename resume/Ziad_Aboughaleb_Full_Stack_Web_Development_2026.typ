@@ -3,9 +3,9 @@
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
-  name: "ziad aboughaleb",
-  title: "ziad aboughaleb - CV",
-  footer: context { [#emph[ziad aboughaleb – #str(here().page())\/#str(counter(page).final().first())]] },
+  name: "Ziad Aboughaleb",
+  title: "Ziad Aboughaleb - CV",
+  footer: context { [#emph[Ziad Aboughaleb – #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Apr 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
@@ -27,11 +27,11 @@
   typography-line-spacing: 0.6em,
   typography-alignment: "left",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Arial",
-  typography-font-family-name: "Arial",
-  typography-font-family-headline: "Arial",
-  typography-font-family-connections: "Arial",
-  typography-font-family-section-titles: "Arial",
+  typography-font-family-body: "Roboto",
+  typography-font-family-name: "Roboto",
+  typography-font-family-headline: "Roboto",
+  typography-font-family-connections: "Roboto",
+  typography-font-family-section-titles: "Roboto",
   typography-font-size-body: 10pt,
   typography-font-size-name: 24pt,
   typography-font-size-headline: 10pt,
@@ -86,7 +86,7 @@
 )
 
 
-= ziad aboughaleb
+= Ziad Aboughaleb
 
   #headline([Full-Stack Web Developer])
 
@@ -102,7 +102,7 @@
 
 == Summary
 
-Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] developer, implementing responsive UIs and optimized builds that reduce bundle sizes and enhance rendering efficiency. Leverage #strong[TypeScript], #strong[Tailwind CSS], and #strong[REST APIs] to ship scalable, high-performance web applications with measurable gains in speed and usability.
+Full-Stack Web Developer specializing in #strong[MERN] and #strong[Next.js], building scalable and high-performance web applications. Skilled in #strong[TypeScript], #strong[Tailwind CSS], and #strong[REST APIs], with a focus on optimizing bundle size, improving rendering efficiency, and delivering responsive, user-friendly interfaces.
 
 
 == Education
@@ -119,7 +119,7 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
   main-column-second-row: [
     Full Stack Web Development
 
-    - Front-end Web Development Degree: #strong[98.92\%]
+    - Front-End Web Development Program: #strong[98.92\%]
 
   ],
 )
@@ -136,16 +136,16 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
   main-column-second-row: [
     Electrical, Electronics, and Communications Engineering
 
-    - #strong[Relevant Coursework:] Data Structures & Algorithms, Digital Logic.
+    - #strong[Relevant Coursework:] Data Structures & Algorithms, Digital Logic
 
   ],
 )
 
 == Skills
 
-#strong[Front-end:] HTML, CSS, JS, React.js, Next.js, TypeScript, Tailwind CSS
+#strong[Front-End:] HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS
 
-#strong[Back-end:] Node.js, Express, MongoDB
+#strong[Back-End:] Node.js, Express, MongoDB
 
 #strong[Tools:] Git, GitHub, Vercel, npm
 
@@ -153,7 +153,7 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
 
 #regular-entry(
   [
-    #strong[DigitalPro -- Marketing Agency Landing Page]
+    #strong[DigitalPro (Marketing Agency Landing Page)]
 
   ],
   [
@@ -163,18 +163,18 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
   main-column-second-row: [
     #summary[#strong[Links:] #link("https://github.com/ziad-wdev/DigitalPro")[GitHub Repo] | #link("https://ziad-wdev.github.io/DigitalPro/")[Live Demo]]
 
-    - Engineered a responsive single-page marketing website using #strong[React 19, Tailwind CSS v4, and Vite] to present services, team members, and business metrics.
+    - Built a responsive marketing landing page using #strong[React 19, Tailwind CSS v4, and Vite] to showcase services, team members, and core business metrics.
 
-    - Implemented #strong[smooth-scroll navigation, sticky header, and interactive UI animations] to enhance user experience and accessibility across devices.
+    - Implemented #strong[smooth scrolling, sticky navigation, and UI animations], improving overall interaction experience.
 
-    - Structured modular, reusable components and optimized build performance with #strong[Vite], improving load speed and maintainability.
+    - Designed a reusable component architecture and optimized build performance with #strong[Vite], enhancing load speed and maintainability.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[ziad.dev -- Personal Portfolio]
+    #strong[Personal Portfolio Website (ziad.dev)]
 
   ],
   [
@@ -184,18 +184,18 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
   main-column-second-row: [
     #summary[#strong[Links:] #link("https://github.com/ziad-wdev/portfolio")[GitHub Repo] | #link("https://ziad-wdev.vercel.app/")[Live Demo]]
 
-    - Engineered a fully responsive portfolio using #strong[React 19 and Vite 8], integrating dynamic project data via #strong[GitHub API and Microlink API] to eliminate manual updates.
+    - Built a fully responsive portfolio with #strong[React 19 and Vite 8], integrating dynamic project data via #strong[GitHub API] and #strong[Microlink API] to automate content updates.
 
-    - Developed a production-ready contact system using #strong[EmailJS and TanStack Form] with client-side validation and real-time feedback via #strong[Sonner notifications].
+    - Implemented a fully functional contact form using #strong[EmailJS] and #strong[TanStack Form], with real-time validation and feedback via #strong[Sonner notifications].
 
-    - Developed persistent #strong[dark\/light theme support] using localStorage and optimized UI performance with the #strong[React Compiler], improving rendering efficiency.
+    - Added persistent #strong[dark\/light mode] using localStorage and improved rendering performance using the #strong[React Compiler].
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Quizzler -- Interactive Quiz Application]
+    #strong[Quizzler (Interactive Quiz Application)]
 
   ],
   [
@@ -205,11 +205,11 @@ Driving full-stack web solutions as a #strong[MERN] and #strong[Next.js] develop
   main-column-second-row: [
     #summary[#strong[Links:] #link("https://github.com/ziad-wdev/Quizzler")[GitHub Repo] | #link("https://ziad-wdev.github.io/Quizzler/")[Live Demo]]
 
-    - Developed an interactive quiz application using #strong[Next.js 16 (App Router) and React 19], delivering dynamic question sets from the #strong[Open Trivia Database API].
+    - Built an interactive quiz application using #strong[Next.js (App Router) and React 19], fetching dynamic questions via the #strong[Open Trivia Database API].
 
-    - enforced a #strong[real-time countdown timer and automated scoring system], enhancing user engagement and game interactivity.
+    - Created a #strong[real-time countdown timer and automated scoring system], increasing user engagement.
 
-    - Designed a responsive and accessible UI with #strong[Tailwind CSS v4], optimizing performance and usability across mobile and desktop devices.
+    - Designed a responsive and accessible UI using #strong[Tailwind CSS v4], ensuring consistent performance across mobile and desktop devices.
 
   ],
 )
