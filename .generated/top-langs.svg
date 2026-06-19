@@ -116,7 +116,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="129.6"
+          width="129.65"
           height="8"
           fill="#663399"
         />
@@ -124,9 +124,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="129.6"
+          x="129.65"
           y="0"
-          width="57.11"
+          width="57.14"
           height="8"
           fill="#44a51c"
         />
@@ -134,9 +134,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="186.70999999999998"
+          x="186.79000000000002"
           y="0"
-          width="43.86"
+          width="43.88"
           height="8"
           fill="#e34c26"
         />
@@ -144,7 +144,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="230.57"
+          x="230.67000000000002"
           y="0"
           width="19.07"
           height="8"
@@ -154,9 +154,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="239.64"
+          x="239.74"
           y="0"
-          width="15.6"
+          width="15.5"
           height="8"
           fill="#89e051"
         />
@@ -164,7 +164,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.23999999999998"
+          x="245.24"
           y="0"
           width="14.76"
           height="8"
@@ -177,7 +177,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#663399" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CSS 51.84%
+        CSS 51.86%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -205,7 +205,7 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#89e051" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Shell 2.24%
+        Shell 2.20%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
