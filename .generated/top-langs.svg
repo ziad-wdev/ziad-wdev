@@ -116,7 +116,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="129.74"
+          width="129.72"
           height="8"
           fill="#663399"
         />
@@ -124,9 +124,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="129.74"
+          x="129.72"
           y="0"
-          width="57.01"
+          width="57.03"
           height="8"
           fill="#44a51c"
         />
@@ -184,7 +184,7 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#44a51c" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        QML 22.80%
+        QML 22.81%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
