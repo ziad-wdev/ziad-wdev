@@ -80,3 +80,17 @@ Apr 2026 – Apr 2026
 - Designed a responsive and accessible UI using **Tailwind CSS v4**, ensuring consistent performance across mobile and desktop devices.
 
 
+
+## **Store (Modern E-Commerce Platform)**
+
+May 2026 – June 2026
+
+**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)
+
+- Built a modern e-commerce application using **Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4**, following scalable component architecture and best practices.
+
+- Integrated the **DummyJSON API** with **RTK Query** to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
+
+- Developed persistent **shopping cart and wishlist** functionality using **Redux Persist**, delivering seamless state management and an improved user experience across browser sessions.
+
+

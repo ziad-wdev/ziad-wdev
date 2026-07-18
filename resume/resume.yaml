@@ -11,7 +11,6 @@ cv:
     - network: LinkedIn
       username: ziad-wdev
   custom_connections: []
-
   sections:
     summary:
       - >
@@ -30,7 +29,6 @@ cv:
         end_date: present
         highlights:
           - "**Relevant Coursework:** Data Structures & Algorithms, Digital Logic"
-
     skills:
       - label: Front-End
         details: HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS
@@ -38,7 +36,6 @@ cv:
         details: Node.js, Express, MongoDB
       - label: Tools
         details: Git, GitHub, Vercel, npm
-
     projects:
       - name: DigitalPro (Marketing Agency Landing Page)
         start_date: 2026-03
@@ -48,7 +45,6 @@ cv:
           - Built a responsive marketing landing page using **React 19, Tailwind CSS v4, and Vite** to showcase services, team members, and core business metrics.
           - Implemented **smooth scrolling, sticky navigation, and UI animations**, improving overall interaction experience.
           - Designed a reusable component architecture and optimized build performance with **Vite**, enhancing load speed and maintainability.
-
       - name: Personal Portfolio Website (ziad.dev)
         start_date: 2026-04
         end_date: 2026-04
@@ -57,7 +53,6 @@ cv:
           - Built a fully responsive portfolio with **Next.js 16 and TypeScript**, integrating dynamic project data via the **GitHub API and Microlink API** to automate content updates.
           - Implemented a production-ready contact system using **EmailJS and TanStack Form**, with client-side validation and real-time feedback via **Sonner notifications**.
           - Added persistent **dark/light theme support** using localStorage and optimized rendering performance with modern React features.
-
       - name: Quizzler (Interactive Quiz Application)
         start_date: 2026-04
         end_date: 2026-04
@@ -66,7 +61,14 @@ cv:
           - Built an interactive quiz application using **Next.js (App Router) and React 19**, fetching dynamic questions via the **Open Trivia Database API**.
           - Created a **real-time countdown timer and automated scoring system**, increasing user engagement.
           - Designed a responsive and accessible UI using **Tailwind CSS v4**, ensuring consistent performance across mobile and desktop devices.
-
+      - name: Store (Modern E-Commerce Platform)
+        start_date: 2026-05
+        end_date: 2026-06
+        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)"
+        highlights:
+          - Built a modern e-commerce application using **Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4**, following scalable component architecture and best practices.
+          - Integrated the **DummyJSON API** with **RTK Query** to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
+          - Developed persistent **shopping cart and wishlist** functionality using **Redux Persist**, delivering seamless state management and an improved user experience across browser sessions.
 design:
   theme: engineeringresumes
   page:
@@ -194,7 +196,6 @@ design:
         AUTHORS
         URL (JOURNAL)
       date_and_location_column: DATE
-
 settings:
   render_command:
     typst_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.typ
