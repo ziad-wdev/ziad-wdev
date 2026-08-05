@@ -1,13 +1,16 @@
 ## Hi, I'm Ziad 👋
 
-- 🎓 Self-taught developer — started with simple HTML & CSS, now building full-stack applications
-- ⚛️ Specializing in **React** & **Next.js** to craft seamless, performant user experiences
-- 🌱 Expanding into backend development with **Node.js** & **MongoDB** _(Work in Progress)_
-- 💼 Currently available for new opportunities — always open to interesting projects & collaborations
+I'm a self-taught **Full-Stack MERN Developer** passionate about building modern, performant, and user-focused web applications.
+
+- 🚀 Building end-to-end applications with the **MERN Stack**
+- ⚛️ Creating responsive and intuitive user interfaces with **React** & **Next.js**
+- ⚙️ Developing scalable backend APIs with **Node.js**, **Express**, and **MongoDB**
+- 🌱 Continuously learning and improving through real-world projects
+- 💼 Open to **full-time**, **freelance**, and **collaboration** opportunities
 
 ---
 
-# Tech Stack
+# 🚀 Tech Stack
 
 ### 🎨 Frontend
 
@@ -28,14 +31,15 @@
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logoColor=white)
 
-### ⚙️ Backend _(WiP)_
+### ⚙️ Backend
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ---
 
-# Softwares
+# Tools
 
 ![Zed](https://img.shields.io/badge/Zed-084CCF?style=for-the-badge&logo=zedindustries&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -59,4 +63,6 @@
 
 ---
 
-![Visitor Count](https://komarev.com/ghpvc/?username=ziad-wdev&style=for-the-badge&color=141321&label=Profile+Views)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ziad-wdev.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ziad-wdev)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ziadahmed2371@gmail.com)
