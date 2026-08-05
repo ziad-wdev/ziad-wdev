@@ -1,6 +1,6 @@
 ## Hi, I'm Ziad 👋
 
-I'm a self-taught **Full-Stack MERN Developer** passionate about building modern, performant, and user-focused web applications.
+I'm a **Full-Stack MERN Developer** passionate about building modern, performant, and user-focused web applications.
 
 - 🚀 Building end-to-end applications with the **MERN Stack**
 - ⚛️ Creating responsive and intuitive user interfaces with **React** & **Next.js**
@@ -53,11 +53,11 @@ I'm a self-taught **Full-Stack MERN Developer** passionate about building modern
 
 <div align="center">
 
-[![GitHub Stats](./.generated/github-stats.svg)](https://helio-github-stats.vercel.app)
+[![GitHub Stats](./.generated/github-stats.svg)](https://github-stats-extended.vercel.app)
 
 [![GitHub Streak](./.generated/streak-stats.svg)](https://github-streak-stats-ruby.vercel.app)
 
-[![Top Languages](./.generated/top-langs.svg)](https://helio-github-stats.vercel.app)
+[![Top Languages](./.generated/top-langs.svg)](https://github-stats-extended.vercel.app)
 
 </div>
 
