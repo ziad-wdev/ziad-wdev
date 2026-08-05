@@ -55,7 +55,7 @@ I'm a **Full-Stack MERN Developer** passionate about building modern, performant
 
 [![GitHub Stats](./.generated/github-stats.svg)](https://github-stats-extended.vercel.app)
 
-[![GitHub Streak](./.generated/streak-stats.svg)](https://github-streak-stats-ruby.vercel.app)
+[![GitHub Streak](./.generated/streak-stats.svg)](https://streak-stats.demolab.com)
 
 [![Top Languages](./.generated/top-langs.svg)](https://github-stats-extended.vercel.app)
 
