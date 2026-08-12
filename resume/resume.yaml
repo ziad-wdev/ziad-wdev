@@ -14,37 +14,52 @@ cv:
   sections:
     summary:
       - >
-        Full-Stack Web Developer specializing in **MERN** and **Next.js**, building scalable and high-performance web applications. Skilled in **TypeScript**, **Tailwind CSS**, and **REST APIs**, with a focus on optimizing bundle size, improving rendering efficiency, and delivering responsive, user-friendly interfaces.
+        **Full-Stack Web Developer** specializing in **React, Next.js, and the MERN stack**, building scalable, high-performance web applications. Experienced with **TypeScript, Tailwind CSS, REST APIs, Turborepo, and modern React tooling**, with a focus on reusable architecture, performance optimization, and maintainable code.
 
+    # education section
     education:
-      - institution: "SEF Academy"
-        area: "Full Stack Web Development"
+      - institution: "SEF Academy - Remote"
+        area: "Full-Stack Web Development"
         start_date: 2025-11
-        end_date: 2026-04
+        end_date: 2026-07
         highlights:
           - "Front-End Web Development Program: **98.92%**"
+          - "Back-End Web Development Program: **98.78%**"
+          - "Full-Stack Web Development Program: **98.85%**"
       - institution: "Faculty of Electronic Engineering, Menoufia University"
         area: "Electrical, Electronics, and Communications Engineering"
         start_date: 2023-10
         end_date: present
         highlights:
           - "**Relevant Coursework:** Data Structures & Algorithms, Digital Logic"
+    # skills section
     skills:
       - label: Front-End
-        details: HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS
+        details: HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS
       - label: Back-End
-        details: Node.js, Express, MongoDB
+        details: Node.js, Express, MongoDB, REST APIs
+      - label: Libraries
+        details: TanStack Query, Redux Toolkit, React Router, React Hook Form, Stripe
       - label: Tools
-        details: Git, GitHub, Vercel, npm
+        details: Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
+    # projects section
     projects:
-      - name: DigitalPro (Marketing Agency Landing Page)
-        start_date: 2026-03
-        end_date: 2026-03
-        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/DigitalPro) | [Live Demo](https://ziad-wdev.github.io/DigitalPro/)"
+      - name: E-Commerce Platform (Monorepo)
+        start_date: 2026-07
+        end_date: 2026-08
+        summary: "**Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/) | [Admin Dashboard Live Demo](https://e-commerce-dashboard-rho-two.vercel.app/)"
         highlights:
-          - Built a responsive marketing landing page using **React 19, Tailwind CSS v4, and Vite** to showcase services, team members, and core business metrics.
-          - Implemented **smooth scrolling, sticky navigation, and UI animations**, improving overall interaction experience.
-          - Designed a reusable component architecture and optimized build performance with **Vite**, enhancing load speed and maintainability.
+          - Built a scalable **Turborepo** monorepo with **npm Workspaces**, developing a customer storefront and an admin dashboard that share reusable packages to improve maintainability and reduce code duplication.
+          - Built a customer storefront and admin dashboard using **React 19, Vite, React Router, Tailwind CSS v4, and TanStack Query**, implementing authentication, product and category management, shopping cart functionality, and **Stripe-powered checkout**.
+          - Created shared **UI, API, and utility packages**, enabling code reuse across applications and simplifying future feature development.
+      - name: Next.js E-Commerce Platform
+        start_date: 2026-05
+        end_date: 2026-06
+        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)"
+        highlights:
+          - Built a modern e-commerce application using **Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4**, following scalable component architecture and best practices.
+          - Integrated the **DummyJSON API** with **RTK Query** to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
+          - Developed persistent **shopping cart and wishlist** functionality using **Redux Persist**, delivering seamless state management and an improved user experience across browser sessions.
       - name: Personal Portfolio Website (ziad.dev)
         start_date: 2026-04
         end_date: 2026-04
@@ -61,14 +76,14 @@ cv:
           - Built an interactive quiz application using **Next.js (App Router) and React 19**, fetching dynamic questions via the **Open Trivia Database API**.
           - Created a **real-time countdown timer and automated scoring system**, increasing user engagement.
           - Designed a responsive and accessible UI using **Tailwind CSS v4**, ensuring consistent performance across mobile and desktop devices.
-      - name: Store (Modern E-Commerce Platform)
-        start_date: 2026-05
-        end_date: 2026-06
-        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)"
+      - name: DigitalPro (Marketing Agency Landing Page)
+        start_date: 2026-03
+        end_date: 2026-03
+        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/DigitalPro) | [Live Demo](https://ziad-wdev.github.io/DigitalPro/)"
         highlights:
-          - Built a modern e-commerce application using **Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4**, following scalable component architecture and best practices.
-          - Integrated the **DummyJSON API** with **RTK Query** to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
-          - Developed persistent **shopping cart and wishlist** functionality using **Redux Persist**, delivering seamless state management and an improved user experience across browser sessions.
+          - Built a responsive marketing landing page using **React 19, Tailwind CSS v4, and Vite** to showcase services, team members, and core business metrics.
+          - Implemented **smooth scrolling, sticky navigation, and UI animations**, improving overall interaction experience.
+          - Designed a reusable component architecture and optimized build performance with **Vite**, enhancing load speed and maintainability.
 design:
   theme: engineeringresumes
   page:

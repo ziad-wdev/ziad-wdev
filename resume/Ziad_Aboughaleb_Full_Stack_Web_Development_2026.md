@@ -9,16 +9,20 @@
 
 
 # Summary
-Full-Stack Web Developer specializing in **MERN** and **Next.js**, building scalable and high-performance web applications. Skilled in **TypeScript**, **Tailwind CSS**, and **REST APIs**, with a focus on optimizing bundle size, improving rendering efficiency, and delivering responsive, user-friendly interfaces.
+**Full-Stack Web Developer** specializing in **React, Next.js, and the MERN stack**, building scalable, high-performance web applications. Experienced with **TypeScript, Tailwind CSS, REST APIs, Turborepo, and modern React tooling**, with a focus on reusable architecture, performance optimization, and maintainable code.
 
 
 # Education
-## **SEF Academy**
-Nov 2025 – Apr 2026
+## **SEF Academy - Remote**
+Nov 2025 – July 2026
 
- Full Stack Web Development
+ Full-Stack Web Development
 
 - Front-End Web Development Program: **98.92%**
+
+- Back-End Web Development Program: **98.78%**
+
+- Full-Stack Web Development Program: **98.85%**
 
 
 
@@ -32,24 +36,40 @@ Oct 2023 – present
 
 
 # Skills
-**Front-End:** HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS
+**Front-End:** HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS
 
-**Back-End:** Node.js, Express, MongoDB
+**Back-End:** Node.js, Express, MongoDB, REST APIs
 
-**Tools:** Git, GitHub, Vercel, npm
+**Libraries:** TanStack Query, Redux Toolkit, React Router, React Hook Form, Stripe
+
+**Tools:** Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
 
 # Projects
-## **DigitalPro (Marketing Agency Landing Page)**
+## **E-Commerce Platform (Monorepo)**
 
-Mar 2026 – Mar 2026
+July 2026 – Aug 2026
 
-**Links:** [GitHub Repo](https://github.com/ziad-wdev/DigitalPro) | [Live Demo](https://ziad-wdev.github.io/DigitalPro/)
+**Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/) | [Admin Dashboard Live Demo](https://e-commerce-dashboard-rho-two.vercel.app/)
 
-- Built a responsive marketing landing page using **React 19, Tailwind CSS v4, and Vite** to showcase services, team members, and core business metrics.
+- Built a scalable **Turborepo** monorepo with **npm Workspaces**, developing a customer storefront and an admin dashboard that share reusable packages to improve maintainability and reduce code duplication.
 
-- Implemented **smooth scrolling, sticky navigation, and UI animations**, improving overall interaction experience.
+- Built a customer storefront and admin dashboard using **React 19, Vite, React Router, Tailwind CSS v4, and TanStack Query**, implementing authentication, product and category management, shopping cart functionality, and **Stripe-powered checkout**.
 
-- Designed a reusable component architecture and optimized build performance with **Vite**, enhancing load speed and maintainability.
+- Created shared **UI, API, and utility packages**, enabling code reuse across applications and simplifying future feature development.
+
+
+
+## **Next.js E-Commerce Platform**
+
+May 2026 – June 2026
+
+**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)
+
+- Built a modern e-commerce application using **Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4**, following scalable component architecture and best practices.
+
+- Integrated the **DummyJSON API** with **RTK Query** to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
+
+- Developed persistent **shopping cart and wishlist** functionality using **Redux Persist**, delivering seamless state management and an improved user experience across browser sessions.
 
 
 
@@ -81,16 +101,16 @@ Apr 2026 – Apr 2026
 
 
 
-## **Store (Modern E-Commerce Platform)**
+## **DigitalPro (Marketing Agency Landing Page)**
 
-May 2026 – June 2026
+Mar 2026 – Mar 2026
 
-**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)
+**Links:** [GitHub Repo](https://github.com/ziad-wdev/DigitalPro) | [Live Demo](https://ziad-wdev.github.io/DigitalPro/)
 
-- Built a modern e-commerce application using **Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4**, following scalable component architecture and best practices.
+- Built a responsive marketing landing page using **React 19, Tailwind CSS v4, and Vite** to showcase services, team members, and core business metrics.
 
-- Integrated the **DummyJSON API** with **RTK Query** to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
+- Implemented **smooth scrolling, sticky navigation, and UI animations**, improving overall interaction experience.
 
-- Developed persistent **shopping cart and wishlist** functionality using **Redux Persist**, delivering seamless state management and an improved user experience across browser sessions.
+- Designed a reusable component architecture and optimized build performance with **Vite**, enhancing load speed and maintainability.
 
 

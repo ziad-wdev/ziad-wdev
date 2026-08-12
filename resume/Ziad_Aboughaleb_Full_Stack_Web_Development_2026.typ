@@ -6,7 +6,7 @@
   name: "Ziad Aboughaleb",
   title: "Ziad Aboughaleb - CV",
   footer: context { [#emph[Ziad Aboughaleb – #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in July 2026] ],
+  top-note: [ #emph[Last updated in Aug 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 7,
-    day: 18,
+    month: 8,
+    day: 7,
   ),
 )
 
@@ -102,24 +102,28 @@
 
 == Summary
 
-Full-Stack Web Developer specializing in #strong[MERN] and #strong[Next.js], building scalable and high-performance web applications. Skilled in #strong[TypeScript], #strong[Tailwind CSS], and #strong[REST APIs], with a focus on optimizing bundle size, improving rendering efficiency, and delivering responsive, user-friendly interfaces.
+#strong[Full-Stack Web Developer] specializing in #strong[React, Next.js, and the MERN stack], building scalable, high-performance web applications. Experienced with #strong[TypeScript, Tailwind CSS, REST APIs, Turborepo, and modern React tooling], with a focus on reusable architecture, performance optimization, and maintainable code.
 
 
 == Education
 
 #education-entry(
   [
-    #strong[SEF Academy]
+    #strong[SEF Academy - Remote]
 
   ],
   [
-    Nov 2025 – Apr 2026
+    Nov 2025 – July 2026
 
   ],
   main-column-second-row: [
-    Full Stack Web Development
+    Full-Stack Web Development
 
     - Front-End Web Development Program: #strong[98.92\%]
+
+    - Back-End Web Development Program: #strong[98.78\%]
+
+    - Full-Stack Web Development Program: #strong[98.85\%]
 
   ],
 )
@@ -143,31 +147,54 @@ Full-Stack Web Developer specializing in #strong[MERN] and #strong[Next.js], bui
 
 == Skills
 
-#strong[Front-End:] HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS
+#strong[Front-End:] HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS
 
-#strong[Back-End:] Node.js, Express, MongoDB
+#strong[Back-End:] Node.js, Express, MongoDB, REST APIs
 
-#strong[Tools:] Git, GitHub, Vercel, npm
+#strong[Libraries:] TanStack Query, Redux Toolkit, React Router, React Hook Form, Stripe
+
+#strong[Tools:] Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
 
 == Projects
 
 #regular-entry(
   [
-    #strong[DigitalPro (Marketing Agency Landing Page)]
+    #strong[E-Commerce Platform (Monorepo)]
 
   ],
   [
-    Mar 2026 – Mar 2026
+    July 2026 – Aug 2026
 
   ],
   main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/DigitalPro")[GitHub Repo] | #link("https://ziad-wdev.github.io/DigitalPro/")[Live Demo]]
+    #summary[#strong[Links:] #link("https://github.com/team-9-frontend/e-commerce")[GitHub Repo] | #link("https://e-commerce-store-mu-eight.vercel.app/")[Store Live Demo] | #link("https://e-commerce-dashboard-rho-two.vercel.app/")[Admin Dashboard Live Demo]]
 
-    - Built a responsive marketing landing page using #strong[React 19, Tailwind CSS v4, and Vite] to showcase services, team members, and core business metrics.
+    - Built a scalable #strong[Turborepo] monorepo with #strong[npm Workspaces], developing a customer storefront and an admin dashboard that share reusable packages to improve maintainability and reduce code duplication.
 
-    - Implemented #strong[smooth scrolling, sticky navigation, and UI animations], improving overall interaction experience.
+    - Built a customer storefront and admin dashboard using #strong[React 19, Vite, React Router, Tailwind CSS v4, and TanStack Query], implementing authentication, product and category management, shopping cart functionality, and #strong[Stripe-powered checkout].
 
-    - Designed a reusable component architecture and optimized build performance with #strong[Vite], enhancing load speed and maintainability.
+    - Created shared #strong[UI, API, and utility packages], enabling code reuse across applications and simplifying future feature development.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Next.js E-Commerce Platform]
+
+  ],
+  [
+    May 2026 – June 2026
+
+  ],
+  main-column-second-row: [
+    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/store")[GitHub Repo] | #link("https://store-two-mu.vercel.app/")[Live Demo]]
+
+    - Built a modern e-commerce application using #strong[Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4], following scalable component architecture and best practices.
+
+    - Integrated the #strong[DummyJSON API] with #strong[RTK Query] to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
+
+    - Developed persistent #strong[shopping cart and wishlist] functionality using #strong[Redux Persist], delivering seamless state management and an improved user experience across browser sessions.
 
   ],
 )
@@ -216,21 +243,21 @@ Full-Stack Web Developer specializing in #strong[MERN] and #strong[Next.js], bui
 
 #regular-entry(
   [
-    #strong[Store (Modern E-Commerce Platform)]
+    #strong[DigitalPro (Marketing Agency Landing Page)]
 
   ],
   [
-    May 2026 – June 2026
+    Mar 2026 – Mar 2026
 
   ],
   main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/store")[GitHub Repo] | #link("https://store-two-mu.vercel.app/")[Live Demo]]
+    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/DigitalPro")[GitHub Repo] | #link("https://ziad-wdev.github.io/DigitalPro/")[Live Demo]]
 
-    - Built a modern e-commerce application using #strong[Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4], following scalable component architecture and best practices.
+    - Built a responsive marketing landing page using #strong[React 19, Tailwind CSS v4, and Vite] to showcase services, team members, and core business metrics.
 
-    - Integrated the #strong[DummyJSON API] with #strong[RTK Query] to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
+    - Implemented #strong[smooth scrolling, sticky navigation, and UI animations], improving overall interaction experience.
 
-    - Developed persistent #strong[shopping cart and wishlist] functionality using #strong[Redux Persist], delivering seamless state management and an improved user experience across browser sessions.
+    - Designed a reusable component architecture and optimized build performance with #strong[Vite], enhancing load speed and maintainability.
 
   ],
 )
