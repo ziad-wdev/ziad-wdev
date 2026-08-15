@@ -14,32 +14,40 @@ cv:
   sections:
     summary:
       - >
-        **Full-Stack Web Developer** specializing in **React, Next.js, and the MERN stack**, building scalable, high-performance web applications. Experienced with **TypeScript, Tailwind CSS, REST APIs, Turborepo, and modern React tooling**, with a focus on reusable architecture, performance optimization, and maintainable code.
+        **Junior Full-Stack MERN Developer** focused on **React, Next.js, Node.js, and MongoDB**, building scalable web applications with **TypeScript, REST APIs, and reusable architecture**. Built a production-style **Turborepo e-commerce monorepo** with customer and admin applications, shared packages, authentication, product management, cart functionality, and Stripe checkout.
 
     # education section
     education:
       - institution: "SEF Academy - Remote"
-        area: "Full-Stack Web Development"
+        area: "**Full-Stack Web Development**"
         start_date: 2025-11
         end_date: 2026-07
         highlights:
-          - "Front-End Web Development Program: **98.92%**"
-          - "Back-End Web Development Program: **98.78%**"
-          - "Full-Stack Web Development Program: **98.85%**"
+          - "**Front-End Web Development Program:** 98.92%"
+          - "**Back-End Web Development Program:** 98.78%"
+          - "**Full-Stack Web Development Program:** 98.85%"
       - institution: "Faculty of Electronic Engineering, Menoufia University"
-        area: "Electrical, Electronics, and Communications Engineering"
+        area: "**B.Sc. Electrical, Electronics, and Communications Engineering**"
         start_date: 2023-10
         end_date: present
         highlights:
           - "**Relevant Coursework:** Data Structures & Algorithms, Digital Logic"
+    # experience section
+    experience:
+      - institution: "SEF Academy Front-End Training - Remote"
+        area: "**Front-End Web Development Trainee**"
+        start_date: 2026-07
+        end_date: 2026-08
+        summary: ""
+        highlights:
+          - "Collaborated in a **team-based development environment** to build a production-style **e-commerce platform** using **React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, and Turborepo**."
+          - "**Front-End Training Program:** 98.5%"
     # skills section
     skills:
       - label: Front-End
         details: HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS
       - label: Back-End
-        details: Node.js, Express, MongoDB, REST APIs
-      - label: Libraries
-        details: TanStack Query, Redux Toolkit, React Router, React Hook Form, Stripe
+        details: Node.js, Express, MongoDB, REST APIs, Docker
       - label: Tools
         details: Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
     # projects section
@@ -49,41 +57,22 @@ cv:
         end_date: 2026-08
         summary: "**Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/) | [Admin Dashboard Live Demo](https://e-commerce-dashboard-rho-two.vercel.app/)"
         highlights:
-          - Built a scalable **Turborepo** monorepo with **npm Workspaces**, developing a customer storefront and an admin dashboard that share reusable packages to improve maintainability and reduce code duplication.
-          - Built a customer storefront and admin dashboard using **React 19, Vite, React Router, Tailwind CSS v4, and TanStack Query**, implementing authentication, product and category management, shopping cart functionality, and **Stripe-powered checkout**.
-          - Created shared **UI, API, and utility packages**, enabling code reuse across applications and simplifying future feature development.
+          - Built a scalable **Turborepo monorepo** with **React 19, Vite, TypeScript, Tailwind CSS, and TanStack Query**, delivering customer and admin applications with shared UI, API, and utility packages.
+          - Implemented authentication, product and category management, shopping cart functionality, and Stripe checkout, improving maintainability through reusable architecture.
       - name: Next.js E-Commerce Platform
         start_date: 2026-05
         end_date: 2026-06
         summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)"
         highlights:
-          - Built a modern e-commerce application using **Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4**, following scalable component architecture and best practices.
-          - Integrated the **DummyJSON API** with **RTK Query** to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
-          - Developed persistent **shopping cart and wishlist** functionality using **Redux Persist**, delivering seamless state management and an improved user experience across browser sessions.
-      - name: Personal Portfolio Website (ziad.dev)
+          - Built a modern e-commerce application with **Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, and Tailwind CSS**, featuring product search, filtering, pagination, and dynamic product pages.
+          - Implemented persistent **cart and wishlist** state with **Redux Persist** and integrated the **DummyJSON REST API** with client-side caching.
+      - name: Personal Portfolio Website
         start_date: 2026-04
         end_date: 2026-04
         summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/portfolio) | [Live Demo](https://ziad-wdev.vercel.app/)"
         highlights:
-          - Built a fully responsive portfolio with **Next.js 16 and TypeScript**, integrating dynamic project data via the **GitHub API and Microlink API** to automate content updates.
-          - Implemented a production-ready contact system using **EmailJS and TanStack Form**, with client-side validation and real-time feedback via **Sonner notifications**.
-          - Added persistent **dark/light theme support** using localStorage and optimized rendering performance with modern React features.
-      - name: Quizzler (Interactive Quiz Application)
-        start_date: 2026-04
-        end_date: 2026-04
-        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/Quizzler) | [Live Demo](https://ziad-wdev.github.io/Quizzler/)"
-        highlights:
-          - Built an interactive quiz application using **Next.js (App Router) and React 19**, fetching dynamic questions via the **Open Trivia Database API**.
-          - Created a **real-time countdown timer and automated scoring system**, increasing user engagement.
-          - Designed a responsive and accessible UI using **Tailwind CSS v4**, ensuring consistent performance across mobile and desktop devices.
-      - name: DigitalPro (Marketing Agency Landing Page)
-        start_date: 2026-03
-        end_date: 2026-03
-        summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/DigitalPro) | [Live Demo](https://ziad-wdev.github.io/DigitalPro/)"
-        highlights:
-          - Built a responsive marketing landing page using **React 19, Tailwind CSS v4, and Vite** to showcase services, team members, and core business metrics.
-          - Implemented **smooth scrolling, sticky navigation, and UI animations**, improving overall interaction experience.
-          - Designed a reusable component architecture and optimized build performance with **Vite**, enhancing load speed and maintainability.
+          - Built a responsive portfolio using **Next.js 16 and TypeScript**, integrating the **GitHub API and Microlink API** for dynamic project content.
+          - Developed a production-ready contact system with **EmailJS and TanStack Form**, adding validation, notifications, theme persistence, and performance optimizations.
 design:
   theme: engineeringresumes
   page:
@@ -92,7 +81,7 @@ design:
     bottom_margin: 0.5in
     left_margin: 0.5in
     right_margin: 0.5in
-    show_footer: false
+    show_footer: true
     show_top_note: true
   colors:
     body: rgb(0, 0, 0)
@@ -169,8 +158,8 @@ design:
       space_above: 0.12cm
       space_left: 0cm
     highlights:
-      bullet: ●
-      nested_bullet: ●
+      bullet: •
+      nested_bullet: •
       space_left: 0cm
       space_above: 0.15cm
       space_between_items: 0.18cm

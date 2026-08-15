@@ -14,7 +14,7 @@
   page-bottom-margin: 0.5in,
   page-left-margin: 0.5in,
   page-right-margin: 0.5in,
-  page-show-footer: false,
+  page-show-footer: true,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
@@ -72,8 +72,8 @@
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.12cm,
-  entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
+  entries-highlights-bullet:  "•" ,
+  entries-highlights-nested-bullet:  "•" ,
   entries-highlights-space-left: 0cm,
   entries-highlights-space-above: 0.15cm,
   entries-highlights-space-between-items: 0.18cm,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 8,
-    day: 7,
+    day: 15,
   ),
 )
 
@@ -102,7 +102,7 @@
 
 == Summary
 
-#strong[Full-Stack Web Developer] specializing in #strong[React, Next.js, and the MERN stack], building scalable, high-performance web applications. Experienced with #strong[TypeScript, Tailwind CSS, REST APIs, Turborepo, and modern React tooling], with a focus on reusable architecture, performance optimization, and maintainable code.
+#strong[Junior Full-Stack MERN Developer] focused on #strong[React, Next.js, Node.js, and MongoDB], building scalable web applications with #strong[TypeScript, REST APIs, and reusable architecture]. Built a production-style #strong[Turborepo e-commerce monorepo] with customer and admin applications, shared packages, authentication, product management, cart functionality, and Stripe checkout.
 
 
 == Education
@@ -117,13 +117,13 @@
 
   ],
   main-column-second-row: [
-    Full-Stack Web Development
+    #strong[Full-Stack Web Development]
 
-    - Front-End Web Development Program: #strong[98.92\%]
+    - #strong[Front-End Web Development Program:] 98.92\%
 
-    - Back-End Web Development Program: #strong[98.78\%]
+    - #strong[Back-End Web Development Program:] 98.78\%
 
-    - Full-Stack Web Development Program: #strong[98.85\%]
+    - #strong[Full-Stack Web Development Program:] 98.85\%
 
   ],
 )
@@ -138,9 +138,30 @@
 
   ],
   main-column-second-row: [
-    Electrical, Electronics, and Communications Engineering
+    #strong[B.Sc. Electrical, Electronics, and Communications Engineering]
 
     - #strong[Relevant Coursework:] Data Structures & Algorithms, Digital Logic
+
+  ],
+)
+
+== Experience
+
+#education-entry(
+  [
+    #strong[SEF Academy Front-End Training - Remote]
+
+  ],
+  [
+    July 2026 – Aug 2026
+
+  ],
+  main-column-second-row: [
+    #strong[Front-End Web Development Trainee]
+
+    - Collaborated in a #strong[team-based development environment] to build a production-style #strong[e-commerce platform] using #strong[React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, and Turborepo].
+
+    - #strong[Front-End Training Program:] 98.5\%
 
   ],
 )
@@ -149,9 +170,7 @@
 
 #strong[Front-End:] HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS
 
-#strong[Back-End:] Node.js, Express, MongoDB, REST APIs
-
-#strong[Libraries:] TanStack Query, Redux Toolkit, React Router, React Hook Form, Stripe
+#strong[Back-End:] Node.js, Express, MongoDB, REST APIs, Docker
 
 #strong[Tools:] Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
 
@@ -169,11 +188,9 @@
   main-column-second-row: [
     #summary[#strong[Links:] #link("https://github.com/team-9-frontend/e-commerce")[GitHub Repo] | #link("https://e-commerce-store-mu-eight.vercel.app/")[Store Live Demo] | #link("https://e-commerce-dashboard-rho-two.vercel.app/")[Admin Dashboard Live Demo]]
 
-    - Built a scalable #strong[Turborepo] monorepo with #strong[npm Workspaces], developing a customer storefront and an admin dashboard that share reusable packages to improve maintainability and reduce code duplication.
+    - Built a scalable #strong[Turborepo monorepo] with #strong[React 19, Vite, TypeScript, Tailwind CSS, and TanStack Query], delivering customer and admin applications with shared UI, API, and utility packages.
 
-    - Built a customer storefront and admin dashboard using #strong[React 19, Vite, React Router, Tailwind CSS v4, and TanStack Query], implementing authentication, product and category management, shopping cart functionality, and #strong[Stripe-powered checkout].
-
-    - Created shared #strong[UI, API, and utility packages], enabling code reuse across applications and simplifying future feature development.
+    - Implemented authentication, product and category management, shopping cart functionality, and Stripe checkout, improving maintainability through reusable architecture.
 
   ],
 )
@@ -190,18 +207,16 @@
   main-column-second-row: [
     #summary[#strong[Links:] #link("https://github.com/ziad-wdev/store")[GitHub Repo] | #link("https://store-two-mu.vercel.app/")[Live Demo]]
 
-    - Built a modern e-commerce application using #strong[Next.js 16 (App Router), React 19, TypeScript, Redux Toolkit, and Tailwind CSS v4], following scalable component architecture and best practices.
+    - Built a modern e-commerce application with #strong[Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, and Tailwind CSS], featuring product search, filtering, pagination, and dynamic product pages.
 
-    - Integrated the #strong[DummyJSON API] with #strong[RTK Query] to implement product browsing, search, category filtering, pagination, and dynamic product detail pages with efficient client-side caching.
-
-    - Developed persistent #strong[shopping cart and wishlist] functionality using #strong[Redux Persist], delivering seamless state management and an improved user experience across browser sessions.
+    - Implemented persistent #strong[cart and wishlist] state with #strong[Redux Persist] and integrated the #strong[DummyJSON REST API] with client-side caching.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Personal Portfolio Website (ziad.dev)]
+    #strong[Personal Portfolio Website]
 
   ],
   [
@@ -211,53 +226,9 @@
   main-column-second-row: [
     #summary[#strong[Links:] #link("https://github.com/ziad-wdev/portfolio")[GitHub Repo] | #link("https://ziad-wdev.vercel.app/")[Live Demo]]
 
-    - Built a fully responsive portfolio with #strong[Next.js 16 and TypeScript], integrating dynamic project data via the #strong[GitHub API and Microlink API] to automate content updates.
+    - Built a responsive portfolio using #strong[Next.js 16 and TypeScript], integrating the #strong[GitHub API and Microlink API] for dynamic project content.
 
-    - Implemented a production-ready contact system using #strong[EmailJS and TanStack Form], with client-side validation and real-time feedback via #strong[Sonner notifications].
-
-    - Added persistent #strong[dark\/light theme support] using localStorage and optimized rendering performance with modern React features.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Quizzler (Interactive Quiz Application)]
-
-  ],
-  [
-    Apr 2026 – Apr 2026
-
-  ],
-  main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/Quizzler")[GitHub Repo] | #link("https://ziad-wdev.github.io/Quizzler/")[Live Demo]]
-
-    - Built an interactive quiz application using #strong[Next.js (App Router) and React 19], fetching dynamic questions via the #strong[Open Trivia Database API].
-
-    - Created a #strong[real-time countdown timer and automated scoring system], increasing user engagement.
-
-    - Designed a responsive and accessible UI using #strong[Tailwind CSS v4], ensuring consistent performance across mobile and desktop devices.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[DigitalPro (Marketing Agency Landing Page)]
-
-  ],
-  [
-    Mar 2026 – Mar 2026
-
-  ],
-  main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/DigitalPro")[GitHub Repo] | #link("https://ziad-wdev.github.io/DigitalPro/")[Live Demo]]
-
-    - Built a responsive marketing landing page using #strong[React 19, Tailwind CSS v4, and Vite] to showcase services, team members, and core business metrics.
-
-    - Implemented #strong[smooth scrolling, sticky navigation, and UI animations], improving overall interaction experience.
-
-    - Designed a reusable component architecture and optimized build performance with #strong[Vite], enhancing load speed and maintainability.
+    - Developed a production-ready contact system with #strong[EmailJS and TanStack Form], adding validation, notifications, theme persistence, and performance optimizations.
 
   ],
 )
