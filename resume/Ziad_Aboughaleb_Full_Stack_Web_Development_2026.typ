@@ -161,6 +161,10 @@
 
     - Collaborated in a #strong[team-based development environment] to build a production-style #strong[e-commerce platform] using #strong[React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, and Turborepo].
 
+    - Contributed to #strong[customer storefront and admin dashboard development], working with shared UI, API, and utility packages to promote reusable architecture and maintainability.
+
+    - Used #strong[Git and GitHub] in a collaborative development workflow to contribute features and integrate work across the team.
+
     - #strong[Front-End Training Program:] 98.5\%
 
   ],

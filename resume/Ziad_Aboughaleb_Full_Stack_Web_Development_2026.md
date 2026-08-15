@@ -43,6 +43,10 @@ July 2026 – Aug 2026
 
 - Collaborated in a **team-based development environment** to build a production-style **e-commerce platform** using **React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, and Turborepo**.
 
+- Contributed to **customer storefront and admin dashboard development**, working with shared UI, API, and utility packages to promote reusable architecture and maintainability.
+
+- Used **Git and GitHub** in a collaborative development workflow to contribute features and integrate work across the team.
+
 - **Front-End Training Program:** 98.5%
 
 
