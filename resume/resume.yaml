@@ -47,11 +47,11 @@ cv:
     # skills section
     skills:
       - label: Front-End
-        details: HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS
+        details: HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS, Redux Toolkit, RTK Query, TanStack Query, Redux Persist, TanStack Form
       - label: Back-End
-        details: Node.js, Express, MongoDB, REST APIs, Docker
-      - label: Tools
-        details: Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
+        details: Node.js, Express.js, MongoDB, Mongoose, Redis, REST APIs, JWT, Docker
+      - label: Tools & Integrations
+        details: Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest, Cloudinary, Stripe, PayPal, Paymob, EmailJS
     # projects section
     projects:
       - name: E-Commerce API
