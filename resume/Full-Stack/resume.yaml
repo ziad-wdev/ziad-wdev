@@ -115,10 +115,10 @@ design:
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 10pt
-      name: 24pt
-      headline: 10pt
-      connections: 10pt
+      body: 11pt
+      name: 20pt
+      headline: 11pt
+      connections: 11pt
       section_titles: 14pt
     small_caps:
       name: true
@@ -156,7 +156,7 @@ design:
     space_below: 0.4cm
   sections:
     allow_page_break: true
-    space_between_regular_entries: 1.4em
+    space_between_regular_entries: 1.2em
     space_between_text_based_entries: 0.4em
     show_time_spans_in: []
   entries:
@@ -174,7 +174,7 @@ design:
       nested_bullet: •
       space_left: 0cm
       space_above: 0.15cm
-      space_between_items: 0.18cm
+      space_between_items: 0.25cm
       space_between_bullet_and_text: 0.5em
   templates:
     footer: "*NAME – PAGE_NUMBER/TOTAL_PAGES*"
@@ -214,9 +214,8 @@ design:
       date_and_location_column: DATE
 settings:
   render_command:
-    typst_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.typ
-    pdf_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.pdf
-    markdown_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.md
-    html_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.html
-    png_path: Ziad_Aboughaleb_Full_Stack_Web_Development_2026.png
-    dont_generate_png: true
+    typst_path: Ziad_Aboughaleb_MERN_Stack.typ
+    pdf_path: Ziad_Aboughaleb_MERN_Stack.pdf
+    markdown_path: Ziad_Aboughaleb_MERN_Stack.md
+    html_path: Ziad_Aboughaleb_MERN_Stack.html
+    png_path: Ziad_Aboughaleb_MERN_Stack.png
