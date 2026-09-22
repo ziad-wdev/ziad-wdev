@@ -1,0 +1,149 @@
+cv:
+  name: "Ziad Aboughaleb"
+  headline: "Full-Stack Web Developer"
+  location: "Shebin El-Kom, Menoufia, Egypt"
+  email: "ziadahmed2371@gmail.com"
+  phone: "+201003460524"
+  website: https://ziad-wdev.vercel.app
+  social_networks:
+    - network: GitHub
+      username: ziad-wdev
+    - network: LinkedIn
+      username: ziad-wdev
+  custom_connections: []
+  sections:
+    summary:
+      - >
+        **Junior Full-Stack MERN Developer** specializing in **React, Next.js, Node.js, Express.js, and MongoDB**. Experienced in building team-based, production-style e-commerce applications with **TypeScript, REST APIs, JWT authentication, OTP workflows, Redis caching, reusable component architecture, and third-party payment integrations**.
+
+    education:
+      - institution: "Faculty of Electronic Engineering, Menoufia University"
+        area: "**B.Sc. Electrical, Electronics, and Communications Engineering**"
+        start_date: 2023-10
+        end_date: present
+        highlights:
+          - "**Relevant Coursework:** Data Structures & Algorithms, Digital Logic, Computer Networks"
+      - institution: "SEF Academy - Remote"
+        area: "**Full-Stack Web Development**"
+        start_date: 2025-11
+        end_date: 2026-07
+        highlights:
+          - "**Front-End Web Development Program:** 98.92%"
+          - "**Back-End Web Development Program:** 98.78%"
+          - "**Full-Stack Web Development Program:** 98.85%"
+
+    experience:
+      - institution: "SEF Academy Back-End Training - Remote"
+        area: "**Back-End Web Development Trainee**"
+        start_date: 2026-08
+        end_date: 2026-09
+        summary: ""
+        highlights:
+          - "Collaborated with a development team to build a production-style **e-commerce REST API** using **Node.js, Express.js, MongoDB, Mongoose, and Redis**."
+          - "Owned the core authentication flow, implementing **JWT access tokens, refresh tokens stored in HTTP-only cookies, OTP email verification, password handling, request validation, and role-based authorization**."
+          - "Implemented **Redis caching** for frequently accessed product and catalog data, reducing repeated database queries."
+          - "Contributed to product catalogs, search, carts, wishlists, orders, reviews, admin analytics, image uploads, and payment integrations with **Stripe, PayPal, and Paymob**."
+          - "Used **Git and GitHub** in a collaborative workflow involving feature development, code review, and integration."
+          - "**Back-End Training Program:** 98.65%"
+
+      - institution: "SEF Academy Front-End Training - Remote"
+        area: "**Front-End Web Development Trainee**"
+        start_date: 2026-07
+        end_date: 2026-08
+        summary: ""
+        highlights:
+          - "Collaborated in a **team-based development environment** to build a production-style **e-commerce platform** using **React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, and Turborepo**."
+          - "Contributed to the **customer storefront and admin dashboard**, coordinating with teammates across a shared codebase to keep features consistent and review-ready."
+          - "Used **Git and GitHub** in a collaborative development workflow to contribute features and integrate work across the team."
+          - "**Front-End Training Program:** 98.5%"
+
+    skills:
+      - label: Languages
+        details: JavaScript, TypeScript, HTML, CSS
+      - label: Front-End Development
+        details: React.js, Next.js, Vite, Tailwind CSS, Redux Toolkit, RTK Query, TanStack Query, TanStack Form, Redux Persist
+      - label: Back-End Development
+        details: Node.js, Express.js, MongoDB, Mongoose, REST APIs, JWT, Redis
+      - label: Tools & Practices
+        details: Git, GitHub, Turborepo, npm Workspaces, Docker, Vercel, Vitest
+      - label: Integrations
+        details: Stripe, PayPal, Paymob, Cloudinary, EmailJS
+      - label: Familiar With
+        details: Nest.js, Zod, SQL, Prisma
+
+    projects:
+      - name: E-Commerce API
+        start_date: 2026-08
+        end_date: 2026-09
+        summary: |
+          **Links:** [GitHub Repo](https://github.com/team-5-backend/e-commerce-api) | [Live API Docs](https://e-commerce-api-blond-eta.vercel.app/api/v1/docs)
+          **Technologies:** Node.js, Express.js, MongoDB, Mongoose, Redis, Cloudinary, Stripe, PayPal, Paymob
+        highlights:
+          - "Collaboratively developed a modular **Express.js REST API** supporting product catalogs, search, carts, wishlists, orders, reviews, and admin analytics."
+          - "Implemented **JWT authentication, OTP verification, refresh-token rotation, role-based authorization, request validation, rate limiting, and security middleware**."
+          - "Used **Redis caching** to optimize frequently accessed catalog data and integrated **Cloudinary, Stripe, PayPal, and Paymob**."
+          - "Provided Docker support and interactive API documentation to simplify local development and API testing."
+
+      - name: E-Commerce Platform (Monorepo)
+        start_date: 2026-07
+        end_date: 2026-08
+        summary: |
+            **Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/) | [Admin Dashboard Live Demo](https://e-commerce-dashboard-rho-two.vercel.app/)
+            **Technologies:** React 19, Vite, Tailwind CSS, TanStack Query
+        highlights:
+          - "Built a scalable **Turborepo monorepo** with **React 19, Vite, Tailwind CSS, and TanStack Query**, delivering customer and admin applications with shared UI, API, and utility packages."
+          - "Implemented authentication, product and category management, shopping cart functionality, and Stripe checkout, improving maintainability through reusable architecture."
+
+      - name: Next.js E-Commerce Platform
+        start_date: 2026-05
+        end_date: 2026-06
+        summary: |
+            **Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)
+            **Technologies:** Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS
+        highlights:
+          - "Built a modern e-commerce application with **Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, and Tailwind CSS**, featuring product search, filtering, pagination, and dynamic product pages."
+          - "Implemented persistent **cart and wishlist** state with **Redux Persist** and integrated the **DummyJSON REST API** with client-side caching."
+
+      - name: Personal Portfolio Website
+        start_date: 2026-04
+        end_date: 2026-04
+        summary: |
+            **Links:** [GitHub Repo](https://github.com/ziad-wdev/portfolio) | [Live Demo](https://ziad-wdev.vercel.app/)
+            **Technologies:** Next.js 16, TypeScript, GitHub API, Microlink API
+        highlights:
+          - "Built a responsive portfolio using **Next.js 16 and TypeScript**, integrating the **GitHub API and Microlink API** for dynamic project content."
+          - "Developed a production-ready contact system with **EmailJS and TanStack Form**, adding validation, notifications, theme persistence, and performance optimizations."
+
+design:
+  theme: engineeringresumes
+  page:
+    show_footer: true
+    show_top_note: true
+
+locale:
+  language: english
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+
+settings:
+  render_command:
+    output_folder: rest
+    pdf_path: ZIAD ABOUGHALEB - FULL STACK - CV.pdf
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  pdf_title: ZIAD ABOUGHALEB - FULL STACK - CV
+  bold_keywords: []

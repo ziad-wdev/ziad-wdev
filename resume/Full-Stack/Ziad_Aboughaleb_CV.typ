@@ -4,17 +4,17 @@
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Ziad Aboughaleb",
-  title: "Ziad Aboughaleb - CV",
-  footer: context { [#emph[Ziad Aboughaleb – #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Aug 2026] ],
+  title: "ZIAD ABOUGHALEB - FULL STACK - CV",
+  footer: context { [#emph[Ziad Aboughaleb -- #str(here().page())\/#str(counter(page).final().first())]] },
+  top-note: [ #emph[Last updated in Sep 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
-  page-size: "a4",
-  page-top-margin: 0.5in,
-  page-bottom-margin: 0.5in,
-  page-left-margin: 0.5in,
-  page-right-margin: 0.5in,
-  page-show-footer: true,
+  page-size: "us-letter",
+  page-top-margin: 0.7in,
+  page-bottom-margin: 0.7in,
+  page-left-margin: 0.7in,
+  page-right-margin: 0.7in,
+  page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
@@ -25,63 +25,63 @@
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
-  typography-alignment: "left",
+  typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Roboto",
-  typography-font-family-name: "Roboto",
-  typography-font-family-headline: "Roboto",
-  typography-font-family-connections: "Roboto",
-  typography-font-family-section-titles: "Roboto",
-  typography-font-size-body: 11pt,
-  typography-font-size-name: 20pt,
-  typography-font-size-headline: 11pt,
-  typography-font-size-connections: 11pt,
-  typography-font-size-section-titles: 14pt,
-  typography-small-caps-name: true,
+  typography-font-family-body: "XCharter",
+  typography-font-family-name: "XCharter",
+  typography-font-family-headline: "XCharter",
+  typography-font-family-connections: "XCharter",
+  typography-font-family-section-titles: "XCharter",
+  typography-font-size-body: 10pt,
+  typography-font-size-name: 25pt,
+  typography-font-size-headline: 10pt,
+  typography-font-size-connections: 10pt,
+  typography-font-size-section-titles: 1.2em,
+  typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
-  typography-bold-name: true,
+  typography-bold-name: false,
   typography-bold-headline: false,
   typography-bold-connections: false,
   typography-bold-section-titles: true,
-  links-underline: false,
+  links-underline: true,
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.4cm,
-  header-space-below-headline: 0.4cm,
-  header-space-below-connections: 0.4cm,
+  header-space-below-name: 0.7cm,
+  header-space-below-headline: 0.7cm,
+  header-space-below-connections: 0.7cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
   header-connections-separator: "|",
   header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_partial_line",
-  section-titles-line-thickness: 1pt,
-  section-titles-space-above: 0.6cm,
-  section-titles-space-below: 0.4cm,
+  section-titles-type: "with_full_line",
+  section-titles-line-thickness: 0.5pt,
+  section-titles-space-above: 0.5cm,
+  section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.4em,
-  sections-space-between-regular-entries: 1.2em,
+  sections-space-between-text-based-entries: 0.15cm,
+  sections-space-between-regular-entries: 0.42cm,
   entries-date-and-location-width: 4.15cm,
-  entries-side-space: 0.2cm,
+  entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0.12cm,
-  entries-highlights-bullet:  "•" ,
-  entries-highlights-nested-bullet:  "•" ,
+  entries-summary-space-above: 0.08cm,
+  entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
+  entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 0.15cm,
-  entries-highlights-space-between-items: 0.25cm,
-  entries-highlights-space-between-bullet-and-text: 0.5em,
+  entries-highlights-space-above: 0.08cm,
+  entries-highlights-space-between-items: 0.08cm,
+  entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 27,
+    month: 9,
+    day: 22,
   ),
 )
 
@@ -93,7 +93,7 @@
 #connections(
   [Shebin El-Kom, Menoufia, Egypt],
   [#link("mailto:ziadahmed2371@gmail.com", icon: false, if-underline: false, if-color: false)[ziadahmed2371\@gmail.com]],
-  [#link("tel:+20-10-03460524", icon: false, if-underline: false, if-color: false)[+20 10 03460524]],
+  [#link("tel:+20-10-03460524", icon: false, if-underline: false, if-color: false)[010 03460524]],
   [#link("https://ziad-wdev.vercel.app/", icon: false, if-underline: false, if-color: false)[ziad-wdev.vercel.app]],
   [#link("https://github.com/ziad-wdev", icon: false, if-underline: false, if-color: false)[github.com\/ziad-wdev]],
   [#link("https://linkedin.com/in/ziad-wdev", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/ziad-wdev]],
@@ -109,16 +109,14 @@
 
 #education-entry(
   [
-    #strong[SEF Academy - Remote]
+    #strong[SEF Academy - Remote], #strong[Full-Stack Web Development]
 
   ],
   [
-    Nov 2025 – July 2026
+    Nov 2025 – Jul 2026
 
   ],
   main-column-second-row: [
-    #strong[Full-Stack Web Development]
-
     - #strong[Front-End Web Development Program:] 98.92\%
 
     - #strong[Back-End Web Development Program:] 98.78\%
@@ -130,7 +128,7 @@
 
 #education-entry(
   [
-    #strong[Faculty of Electronic Engineering, Menoufia University]
+    #strong[Faculty of Electronic Engineering, Menoufia University], #strong[B.Sc. Electrical, Electronics, and Communications Engineering]
 
   ],
   [
@@ -138,8 +136,6 @@
 
   ],
   main-column-second-row: [
-    #strong[B.Sc. Electrical, Electronics, and Communications Engineering]
-
     - #strong[Relevant Coursework:] Data Structures & Algorithms, Digital Logic
 
   ],
@@ -149,19 +145,17 @@
 
 #education-entry(
   [
-    #strong[SEF Academy Front-End Training - Remote]
+    #strong[SEF Academy Front-End Training - Remote], #strong[Front-End Web Development Trainee]
 
   ],
   [
-    July 2026 – Aug 2026
+    Jul 2026 – Aug 2026
 
   ],
   main-column-second-row: [
-    #strong[Front-End Web Development Trainee]
-
     - Collaborated in a #strong[team-based development environment] to build a production-style #strong[e-commerce platform] using #strong[React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, and Turborepo].
 
-    - Contributed to #strong[customer storefront and admin dashboard development], working with shared UI, API, and utility packages to promote reusable architecture and maintainability.
+    - Contributed to the #strong[customer storefront and admin dashboard], coordinating with teammates across a shared codebase to keep features consistent and review-ready.
 
     - Used #strong[Git and GitHub] in a collaborative development workflow to contribute features and integrate work across the team.
 
@@ -172,13 +166,36 @@
 
 == Skills
 
-#strong[Front-End:] HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS
+#strong[Front-End:] HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS, Redux Toolkit, RTK Query, TanStack Query, Redux Persist, TanStack Form
 
-#strong[Back-End:] Node.js, Express, MongoDB, REST APIs, Docker
+#strong[Back-End:] Node.js, Express.js, MongoDB, Mongoose, Redis, REST APIs, JWT, Docker
 
-#strong[Tools:] Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
+#strong[Tools & Integrations:] Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest, Cloudinary, Stripe, PayPal, Paymob, EmailJS
+
+#strong[Familiar With:] Nest.js, Zod, SQL, Prisma
 
 == Projects
+
+#regular-entry(
+  [
+    #strong[E-Commerce API]
+
+  ],
+  [
+    Aug 2026 – Sep 2026
+
+  ],
+  main-column-second-row: [
+    #summary[#strong[Links:] #link("https://github.com/team-5-backend/e-commerce-api")[GitHub Repo] | #link("https://e-commerce-api-blond-eta.vercel.app/api/v1/docs")[Live API Docs]]
+
+    - Built a production-ready #strong[Express.js REST API] for an e-commerce platform with #strong[Node.js, MongoDB, Mongoose, and Redis], supporting product catalogs, search, carts, wishlists, orders, reviews, and admin analytics.
+
+    - Implemented secure authentication with #strong[JWT access tokens, refresh-token cookies, OTP email workflows, request validation, rate limiting, security headers, compression, and role-based admin authorization].
+
+    - Integrated #strong[Cloudinary] for product image uploads and #strong[Stripe, PayPal, and Paymob] payment providers, with Docker support and interactive API documentation.
+
+  ],
+)
 
 #regular-entry(
   [
@@ -186,7 +203,7 @@
 
   ],
   [
-    July 2026 – Aug 2026
+    Jul 2026 – Aug 2026
 
   ],
   main-column-second-row: [
@@ -205,7 +222,7 @@
 
   ],
   [
-    May 2026 – June 2026
+    May 2026 – Jun 2026
 
   ],
   main-column-second-row: [
