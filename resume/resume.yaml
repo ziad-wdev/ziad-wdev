@@ -14,7 +14,7 @@ cv:
   sections:
     summary:
       - >
-        **Junior Full-Stack MERN Developer** focused on **React, Next.js, Node.js, and MongoDB**, building scalable web applications with **TypeScript, REST APIs, and reusable architecture**. Built a production-style **Turborepo e-commerce monorepo** with customer and admin applications, shared packages, authentication, product management, cart functionality, and Stripe checkout.
+        **Junior Full-Stack MERN Developer** focused on **React, Next.js, Node.js, and MongoDB**, building scalable web applications with **TypeScript, REST APIs, and reusable architecture**.
 
     # education section
     education:
@@ -54,27 +54,35 @@ cv:
         details: Bun, Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest
     # projects section
     projects:
+      - name: E-Commerce API
+        start_date: 2026-08
+        end_date: 2026-09
+        summary: "**Links:** [GitHub Repo](https://github.com/team-5-backend/e-commerce-api)"
+        highlights:
+          - "Built a production-ready **Express.js REST API** for an e-commerce platform with **Node.js, MongoDB, Mongoose, and Redis**, supporting product catalogs, search, carts, wishlists, orders, reviews, and admin analytics."
+          - "Implemented secure authentication with **JWT access tokens, refresh-token cookies, OTP email workflows, request validation, rate limiting, security headers, compression, and role-based admin authorization**."
+          - "Integrated **Cloudinary** for product image uploads and **Stripe, PayPal, and Paymob** payment providers, with Docker support and interactive API documentation."
       - name: E-Commerce Platform (Monorepo)
         start_date: 2026-07
         end_date: 2026-08
-        summary: "**Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/) | [Admin Dashboard Live Demo](https://e-commerce-dashboard-rho-two.vercel.app/)"
+        summary: "**Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/) | [Admin Dashboard Live Demo](https://e-commerce-admin-mu-eight.vercel.app/)"
         highlights:
-          - Built a scalable **Turborepo monorepo** with **React 19, Vite, TypeScript, Tailwind CSS, and TanStack Query**, delivering customer and admin applications with shared UI, API, and utility packages.
-          - Implemented authentication, product and category management, shopping cart functionality, and Stripe checkout, improving maintainability through reusable architecture.
+          - "Built a scalable **Turborepo monorepo** with **React 19, Vite, TypeScript, Tailwind CSS, and TanStack Query**, delivering customer and admin applications with shared UI, API, and utility packages."
+          - "Implemented authentication, product and category management, shopping cart functionality, and Stripe checkout, improving maintainability through reusable architecture."
       - name: Next.js E-Commerce Platform
         start_date: 2026-05
         end_date: 2026-06
         summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/store) | [Live Demo](https://store-two-mu.vercel.app/)"
         highlights:
-          - Built a modern e-commerce application with **Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, and Tailwind CSS**, featuring product search, filtering, pagination, and dynamic product pages.
-          - Implemented persistent **cart and wishlist** state with **Redux Persist** and integrated the **DummyJSON REST API** with client-side caching.
+          - "Built a modern e-commerce application with **Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, and Tailwind CSS**, featuring product search, filtering, pagination, and dynamic product pages."
+          - "Implemented persistent **cart and wishlist** state with **Redux Persist** and integrated the **DummyJSON REST API** with client-side caching."
       - name: Personal Portfolio Website
         start_date: 2026-04
         end_date: 2026-04
         summary: "**Links:** [GitHub Repo](https://github.com/ziad-wdev/portfolio) | [Live Demo](https://ziad-wdev.vercel.app/)"
         highlights:
-          - Built a responsive portfolio using **Next.js 16 and TypeScript**, integrating the **GitHub API and Microlink API** for dynamic project content.
-          - Developed a production-ready contact system with **EmailJS and TanStack Form**, adding validation, notifications, theme persistence, and performance optimizations.
+          - "Built a responsive portfolio using **Next.js 16 and TypeScript**, integrating the **GitHub API and Microlink API** for dynamic project content."
+          - "Developed a production-ready contact system with **EmailJS and TanStack Form**, adding validation, notifications, theme persistence, and performance optimizations."
 design:
   theme: engineeringresumes
   page:
