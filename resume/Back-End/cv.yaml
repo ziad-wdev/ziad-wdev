@@ -67,20 +67,20 @@ cv:
           **Technologies:** REST API integration, JavaScript, Turborepo
         highlights:
           - "Collaborated across a shared monorepo to integrate customer and admin applications with backend services."
-    design:
-      theme: engineeringresumes
-      page:
-        show_footer: true
-        show_top_note: true
-    locale:
-      language: english
-    settings:
-      render_command:
-        output_folder: .
-        pdf_path: ZIAD ABOUGHALEB - BACKEND - CV.pdf
-        dont_generate_markdown: true
-        dont_generate_html: true
-        dont_generate_typst: false
-        dont_generate_pdf: false
-        dont_generate_png: true
-      pdf_title: ZIAD ABOUGHALEB - BACKEND - CV
+design:
+  theme: engineeringresumes
+  page:
+    show_footer: true
+    show_top_note: true
+locale:
+  language: english
+settings:
+  render_command:
+    output_folder: .
+    pdf_path: ZIAD ABOUGHALEB - BACKEND - CV.pdf
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  pdf_title: ZIAD ABOUGHALEB - BACKEND - CV

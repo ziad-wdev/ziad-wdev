@@ -14,6 +14,7 @@ cv:
     summary:
       - >
         **Junior Front-End Web Developer** specializing in **React, Next.js, JavaScript, TypeScript, Vite, and Tailwind CSS**. Experienced in building responsive e-commerce storefronts, admin dashboards, and portfolio applications with reusable components, client-side state management, API integration, and collaborative Git workflows.
+
     education:
       - institution: "Faculty of Electronic Engineering, Menoufia University"
         area: "**B.Sc. Electrical, Electronics, and Communications Engineering**"
@@ -70,20 +71,20 @@ cv:
           **Technologies:** Next.js 16, TypeScript, GitHub API, Microlink API, EmailJS, TanStack Form
         highlights:
           - "Built a responsive portfolio with dynamic project content and a validated contact system."
-    design:
-      theme: engineeringresumes
-      page:
-        show_footer: true
-        show_top_note: true
-    locale:
-      language: english
-    settings:
-      render_command:
-        output_folder: .
-        pdf_path: ZIAD ABOUGHALEB - FRONTEND - CV.pdf
-        dont_generate_markdown: true
-        dont_generate_html: true
-        dont_generate_typst: false
-        dont_generate_pdf: false
-        dont_generate_png: true
-      pdf_title: ZIAD ABOUGHALEB - FRONTEND - CV
+design:
+  theme: engineeringresumes
+  page:
+    show_footer: true
+    show_top_note: true
+locale:
+  language: english
+settings:
+  render_command:
+    output_folder: .
+    pdf_path: ZIAD ABOUGHALEB - FRONTEND - CV.pdf
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  pdf_title: ZIAD ABOUGHALEB - FRONTEND - CV
