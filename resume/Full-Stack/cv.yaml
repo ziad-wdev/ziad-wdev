@@ -138,7 +138,7 @@ locale:
 
 settings:
   render_command:
-    output_folder: rest
+    output_folder: .
     pdf_path: ZIAD ABOUGHALEB - FULL STACK - CV.pdf
     dont_generate_markdown: true
     dont_generate_html: true

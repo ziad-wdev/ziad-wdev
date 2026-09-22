@@ -14,7 +14,7 @@
   page-bottom-margin: 0.7in,
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
-  page-show-footer: false,
+  page-show-footer: true,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
@@ -102,10 +102,25 @@
 
 == Summary
 
-#strong[Junior Full-Stack MERN Developer] focused on #strong[React, Next.js, Node.js, and MongoDB], building scalable web applications with #strong[TypeScript, REST APIs, and reusable architecture]. Built a production-style #strong[Turborepo e-commerce monorepo] with customer and admin applications, shared packages, authentication, product management, cart functionality, and Stripe checkout.
+#strong[Junior Full-Stack MERN Developer] specializing in #strong[React, Next.js, Node.js, Express.js, and MongoDB]. Experienced in building team-based, production-style e-commerce applications with #strong[TypeScript, REST APIs, JWT authentication, OTP workflows, Redis caching, reusable component architecture, and third-party payment integrations].
 
 
 == Education
+
+#education-entry(
+  [
+    #strong[Faculty of Electronic Engineering, Menoufia University], #strong[B.Sc. Electrical, Electronics, and Communications Engineering]
+
+  ],
+  [
+    Oct 2023 – present
+
+  ],
+  main-column-second-row: [
+    - #strong[Relevant Coursework:] Data Structures & Algorithms, Digital Logic, Computer Networks
+
+  ],
+)
 
 #education-entry(
   [
@@ -126,22 +141,32 @@
   ],
 )
 
+== Experience
+
 #education-entry(
   [
-    #strong[Faculty of Electronic Engineering, Menoufia University], #strong[B.Sc. Electrical, Electronics, and Communications Engineering]
+    #strong[SEF Academy Back-End Training - Remote], #strong[Back-End Web Development Trainee]
 
   ],
   [
-    Oct 2023 – present
+    Aug 2026 – Sep 2026
 
   ],
   main-column-second-row: [
-    - #strong[Relevant Coursework:] Data Structures & Algorithms, Digital Logic
+    - Collaborated with a development team to build a production-style #strong[e-commerce REST API] using #strong[Node.js, Express.js, MongoDB, Mongoose, and Redis].
+
+    - Owned the core authentication flow, implementing #strong[JWT access tokens, refresh tokens stored in HTTP-only cookies, OTP email verification, password handling, request validation, and role-based authorization].
+
+    - Implemented #strong[Redis caching] for frequently accessed product and catalog data, reducing repeated database queries.
+
+    - Contributed to product catalogs, search, carts, wishlists, orders, reviews, admin analytics, image uploads, and payment integrations with #strong[Stripe, PayPal, and Paymob].
+
+    - Used #strong[Git and GitHub] in a collaborative workflow involving feature development, code review, and integration.
+
+    - #strong[Back-End Training Program:] 98.65\%
 
   ],
 )
-
-== Experience
 
 #education-entry(
   [
@@ -166,11 +191,15 @@
 
 == Skills
 
-#strong[Front-End:] HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Vite, Tailwind CSS, Redux Toolkit, RTK Query, TanStack Query, Redux Persist, TanStack Form
+#strong[Languages:] JavaScript, TypeScript, HTML, CSS
 
-#strong[Back-End:] Node.js, Express.js, MongoDB, Mongoose, Redis, REST APIs, JWT, Docker
+#strong[Front-End Development:] React.js, Next.js, Vite, Tailwind CSS, Redux Toolkit, RTK Query, TanStack Query, TanStack Form, Redux Persist
 
-#strong[Tools & Integrations:] Git, GitHub, Turborepo, npm Workspaces, Vercel, Vitest, Cloudinary, Stripe, PayPal, Paymob, EmailJS
+#strong[Back-End Development:] Node.js, Express.js, MongoDB, Mongoose, REST APIs, JWT, Redis
+
+#strong[Tools & Practices:] Git, GitHub, Turborepo, npm Workspaces, Docker, Vercel, Vitest
+
+#strong[Integrations:] Stripe, PayPal, Paymob, Cloudinary, EmailJS
 
 #strong[Familiar With:] Nest.js, Zod, SQL, Prisma
 
@@ -186,13 +215,17 @@
 
   ],
   main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/team-5-backend/e-commerce-api")[GitHub Repo] | #link("https://e-commerce-api-blond-eta.vercel.app/api/v1/docs")[Live API Docs]]
+    #summary[#strong[Links:] #link("https://github.com/team-5-backend/e-commerce-api")[GitHub Repo] | #link("https://e-commerce-api-blond-eta.vercel.app/api/v1/docs")[Live API Docs] \ #strong[Technologies:] Node.js, Express.js, MongoDB, Mongoose, Redis, Cloudinary, Stripe, PayPal, Paymob]
 
-    - Built a production-ready #strong[Express.js REST API] for an e-commerce platform with #strong[Node.js, MongoDB, Mongoose, and Redis], supporting product catalogs, search, carts, wishlists, orders, reviews, and admin analytics.
+    
 
-    - Implemented secure authentication with #strong[JWT access tokens, refresh-token cookies, OTP email workflows, request validation, rate limiting, security headers, compression, and role-based admin authorization].
+    - Collaboratively developed a modular #strong[Express.js REST API] supporting product catalogs, search, carts, wishlists, orders, reviews, and admin analytics.
 
-    - Integrated #strong[Cloudinary] for product image uploads and #strong[Stripe, PayPal, and Paymob] payment providers, with Docker support and interactive API documentation.
+    - Implemented #strong[JWT authentication, OTP verification, refresh-token rotation, role-based authorization, request validation, rate limiting, and security middleware].
+
+    - Used #strong[Redis caching] to optimize frequently accessed catalog data and integrated #strong[Cloudinary, Stripe, PayPal, and Paymob].
+
+    - Provided Docker support and interactive API documentation to simplify local development and API testing.
 
   ],
 )
@@ -207,9 +240,11 @@
 
   ],
   main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/team-9-frontend/e-commerce")[GitHub Repo] | #link("https://e-commerce-store-mu-eight.vercel.app/")[Store Live Demo] | #link("https://e-commerce-dashboard-rho-two.vercel.app/")[Admin Dashboard Live Demo]]
+    #summary[#strong[Links:] #link("https://github.com/team-9-frontend/e-commerce")[GitHub Repo] | #link("https://e-commerce-store-mu-eight.vercel.app/")[Store Live Demo] | #link("https://e-commerce-dashboard-rho-two.vercel.app/")[Admin Dashboard Live Demo] \ #strong[Technologies:] React 19, Vite, Tailwind CSS, TanStack Query]
 
-    - Built a scalable #strong[Turborepo monorepo] with #strong[React 19, Vite, TypeScript, Tailwind CSS, and TanStack Query], delivering customer and admin applications with shared UI, API, and utility packages.
+    
+
+    - Built a scalable #strong[Turborepo monorepo] with #strong[React 19, Vite, Tailwind CSS, and TanStack Query], delivering customer and admin applications with shared UI, API, and utility packages.
 
     - Implemented authentication, product and category management, shopping cart functionality, and Stripe checkout, improving maintainability through reusable architecture.
 
@@ -226,7 +261,9 @@
 
   ],
   main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/store")[GitHub Repo] | #link("https://store-two-mu.vercel.app/")[Live Demo]]
+    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/store")[GitHub Repo] | #link("https://store-two-mu.vercel.app/")[Live Demo] \ #strong[Technologies:] Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS]
+
+    
 
     - Built a modern e-commerce application with #strong[Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, and Tailwind CSS], featuring product search, filtering, pagination, and dynamic product pages.
 
@@ -245,7 +282,9 @@
 
   ],
   main-column-second-row: [
-    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/portfolio")[GitHub Repo] | #link("https://ziad-wdev.vercel.app/")[Live Demo]]
+    #summary[#strong[Links:] #link("https://github.com/ziad-wdev/portfolio")[GitHub Repo] | #link("https://ziad-wdev.vercel.app/")[Live Demo] \ #strong[Technologies:] Next.js 16, TypeScript, GitHub API, Microlink API]
+
+    
 
     - Built a responsive portfolio using #strong[Next.js 16 and TypeScript], integrating the #strong[GitHub API and Microlink API] for dynamic project content.
 
