@@ -86,7 +86,7 @@ cv:
         end_date: 2026-08
         summary: |
           **Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/)
-          **Technologies:** React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, Turborepo
+          **Technologies:** React 19, Vite, Tailwind CSS, TanStack Query, Turborepo
         highlights:
           - "Built a scalable **Turborepo monorepo** with customer and admin applications plus shared UI, API, and utility packages."
           - "Implemented authentication, product and category management, shopping cart functionality, responsive layouts, and Stripe checkout using reusable architecture."
