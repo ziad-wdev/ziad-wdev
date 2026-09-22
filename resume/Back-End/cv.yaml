@@ -1,0 +1,86 @@
+cv:
+  name: "Ziad Aboughaleb"
+  headline: "Back-End Web Developer"
+  location: "Shebin El-Kom, Menoufia, Egypt"
+  email: "ziadahmed2371@gmail.com"
+  phone: "+201003460524"
+  website: https://ziad-wdev.vercel.app
+  social_networks:
+    - network: GitHub
+      username: ziad-wdev
+    - network: LinkedIn
+      username: ziad-wdev
+  sections:
+    summary:
+      - >
+        **Junior Back-End Web Developer** specializing in **Node.js, Express.js, MongoDB, Mongoose, REST APIs, JWT, and Redis**. Experienced in building modular e-commerce APIs with authentication, session management, validation, caching, security middleware, file uploads, payment workflows, webhooks, and interactive documentation.
+    education:
+      - institution: "Faculty of Electronic Engineering, Menoufia University"
+        area: "**B.Sc. Electrical, Electronics, and Communications Engineering**"
+        start_date: 2023-10
+        end_date: present
+      - institution: "SEF Academy - Remote"
+        area: "**Back-End Web Development Program**"
+        start_date: 2025-11
+        end_date: 2026-09
+        highlights:
+          - "Completed the back-end program with a score of **98.78%**."
+    experience:
+      - institution: "SEF Academy Back-End Training - Remote"
+        area: "**Back-End Web Development Trainee**"
+        start_date: 2026-08
+        end_date: 2026-09
+        highlights:
+          - "Collaborated on a production-style e-commerce REST API using Node.js, Express.js, MongoDB, Mongoose, and Redis."
+          - "Owned authentication flows with JWT access tokens, HTTP-only refresh-token cookies, OTP verification, session management, validation, and role-based authorization."
+          - "Contributed to 40+ documented REST operations across authentication, products, carts, wishlists, orders, reviews, users, and admin analytics."
+          - "Integrated Redis caching, Cloudinary uploads, Stripe, PayPal, and Paymob payments with webhook workflows."
+          - "Used Git and GitHub for feature development, code review, and integration."
+    skills:
+      - label: Languages
+        details: JavaScript, TypeScript
+      - label: Back-End Development
+        details: Node.js, Express.js, MongoDB, Mongoose, REST APIs, JWT, Redis
+      - label: Security & Infrastructure
+        details: HTTP-only cookies, OTP verification, session management, role-based authorization, request validation, rate limiting, Docker
+      - label: Integrations
+        details: Cloudinary, Stripe, PayPal, Paymob, Email workflows, Webhooks
+      - label: Familiar With
+        details: Nest.js, Zod, SQL, Prisma
+    projects:
+      - name: E-Commerce API
+        start_date: 2026-08
+        end_date: 2026-09
+        summary: |
+          **Links:** [GitHub Repo](https://github.com/team-5-backend/e-commerce-api) | [API Documentation](https://e-commerce-api-blond-eta.vercel.app/api/v1/docs)
+          **Technologies:** Node.js, Express.js, MongoDB, Mongoose, Redis, Cloudinary, Stripe, PayPal, Paymob
+        highlights:
+          - "Developed a modular API with **40+ documented operations** for authentication, products, search, carts, wishlists, orders, reviews, users, and admin analytics."
+          - "Implemented JWT authentication, OTP verification, HTTP-only refresh-token cookies, sessions, role-based authorization, request validation, rate limiting, and security middleware."
+          - "Added Redis caching, Cloudinary image uploads, payment initialization, and Stripe, PayPal, and Paymob webhooks."
+          - "Added Docker support and interactive API documentation; product uploads support up to five images and list endpoints support pagination up to 100 items."
+      - name: E-Commerce Platform (Monorepo)
+        start_date: 2026-07
+        end_date: 2026-08
+        summary: |
+          **Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce)
+          **Technologies:** REST API integration, JavaScript, Turborepo
+        highlights:
+          - "Collaborated across a shared monorepo to integrate customer and admin applications with backend services."
+    design:
+      theme: engineeringresumes
+      page:
+        show_footer: true
+        show_top_note: true
+    locale:
+      language: english
+    settings:
+      render_command:
+        output_folder: .
+        pdf_path: ZIAD ABOUGHALEB - BACKEND - CV.pdf
+        dont_generate_markdown: true
+        dont_generate_html: true
+        dont_generate_typst: false
+        dont_generate_pdf: false
+        dont_generate_png: true
+      pdf_title: ZIAD ABOUGHALEB - BACKEND - CV

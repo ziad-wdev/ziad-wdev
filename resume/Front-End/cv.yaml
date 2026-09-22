@@ -1,0 +1,89 @@
+cv:
+  name: "Ziad Aboughaleb"
+  headline: "Front-End Web Developer"
+  location: "Shebin El-Kom, Menoufia, Egypt"
+  email: "ziadahmed2371@gmail.com"
+  phone: "+201003460524"
+  website: https://ziad-wdev.vercel.app
+  social_networks:
+    - network: GitHub
+      username: ziad-wdev
+    - network: LinkedIn
+      username: ziad-wdev
+  sections:
+    summary:
+      - >
+        **Junior Front-End Web Developer** specializing in **React, Next.js, JavaScript, TypeScript, Vite, and Tailwind CSS**. Experienced in building responsive e-commerce storefronts, admin dashboards, and portfolio applications with reusable components, client-side state management, API integration, and collaborative Git workflows.
+    education:
+      - institution: "Faculty of Electronic Engineering, Menoufia University"
+        area: "**B.Sc. Electrical, Electronics, and Communications Engineering**"
+        start_date: 2023-10
+        end_date: present
+      - institution: "SEF Academy - Remote"
+        area: "**Front-End Web Development Program**"
+        start_date: 2025-11
+        end_date: 2026-08
+        highlights:
+          - "Completed the front-end program with a score of **98.92%**."
+    experience:
+      - institution: "SEF Academy Front-End Training - Remote"
+        area: "**Front-End Web Development Trainee**"
+        start_date: 2026-07
+        end_date: 2026-08
+        highlights:
+          - "Collaborated in a team environment to build a production-style e-commerce platform with **React 19, Vite, Tailwind CSS, TanStack Query, and Turborepo**."
+          - "Contributed to customer storefront and admin dashboard features including authentication, product management, carts, and Stripe checkout."
+          - "Used Git and GitHub for feature development, code review, and integration."
+    skills:
+      - label: Languages
+        details: JavaScript, TypeScript, HTML, CSS
+      - label: Front-End
+        details: React 19, Next.js 16, Vite, Tailwind CSS, Redux Toolkit, RTK Query, TanStack Query, TanStack Form, Redux Persist
+      - label: Architecture & Tools
+        details: Turborepo, npm Workspaces, Git, GitHub, Vercel, Vitest
+      - label: Integrations
+        details: REST APIs, GitHub API, Microlink API, Stripe, EmailJS
+    projects:
+      - name: E-Commerce Platform (Monorepo)
+        start_date: 2026-07
+        end_date: 2026-08
+        summary: |
+          **Links:** [GitHub Repo](https://github.com/team-9-frontend/e-commerce) | [Store Live Demo](https://e-commerce-store-mu-eight.vercel.app/)
+          **Technologies:** React 19, Vite, JavaScript, Tailwind CSS, TanStack Query, Turborepo
+        highlights:
+          - "Built customer and admin applications in a shared **Turborepo monorepo** with reusable UI, API, and utility packages."
+          - "Implemented authentication, product and category management, cart functionality, responsive layouts, and Stripe checkout."
+      - name: Next.js E-Commerce Platform
+        start_date: 2026-05
+        end_date: 2026-06
+        summary: |
+          **Links:** [GitHub Repo](https://github.com/ziad-wdev/Store) | [Live Demo](https://store-two-mu.vercel.app/)
+          **Technologies:** Next.js 16, React 19, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS
+        highlights:
+          - "Built product search, filtering, pagination, product details, responsive layouts, cart, and wishlist functionality."
+          - "Used RTK Query for API integration and Redux Persist for persistent client-side state."
+      - name: Personal Portfolio Website
+        start_date: 2026-04
+        end_date: 2026-04
+        summary: |
+          **Links:** [GitHub Repo](https://github.com/ziad-wdev/portfolio) | [Live Demo](https://ziad-wdev.vercel.app/)
+          **Technologies:** Next.js 16, TypeScript, GitHub API, Microlink API, EmailJS, TanStack Form
+        highlights:
+          - "Built a responsive portfolio with dynamic project content and a validated contact system."
+    design:
+      theme: engineeringresumes
+      page:
+        show_footer: true
+        show_top_note: true
+    locale:
+      language: english
+    settings:
+      render_command:
+        output_folder: .
+        pdf_path: ZIAD ABOUGHALEB - FRONTEND - CV.pdf
+        dont_generate_markdown: true
+        dont_generate_html: true
+        dont_generate_typst: false
+        dont_generate_pdf: false
+        dont_generate_png: true
+      pdf_title: ZIAD ABOUGHALEB - FRONTEND - CV
