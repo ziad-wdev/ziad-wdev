@@ -29,7 +29,6 @@ cv:
         end_date: 2026-09
         highlights:
           - "Completed front-end, back-end, and full-stack training programs with scores of **98.92%**, **98.78%**, and **98.85%**, respectively."
-
     experience:
       - institution: "SEF Academy Back-End Training - Remote"
         area: "**Back-End Web Development Trainee**"
@@ -43,7 +42,6 @@ cv:
           - "Contributed to a documented API with **40+ documented REST operations** covering authentication, products, carts, wishlists, orders, users, and admin analytics; product endpoints support pagination with limits up to 100 and product uploads support up to five images."
           - "Integrated **Cloudinary** image uploads and **Stripe, PayPal, and Paymob** payment workflows, including payment webhooks."
           - "Used **Git and GitHub** in a collaborative workflow involving feature development, code review, and integration."
-
       - institution: "SEF Academy Front-End Training - Remote"
         area: "**Front-End Web Development Trainee**"
         start_date: 2026-07
@@ -53,7 +51,6 @@ cv:
           - "Collaborated in a **team-based development environment** to build a production-style **e-commerce platform** using **React 19, Vite, TypeScript, Tailwind CSS, TanStack Query, and Turborepo**."
           - "Contributed to the **customer storefront and admin dashboard**, coordinating with teammates across a shared codebase to keep features consistent and review-ready."
           - "Used **Git and GitHub** in a collaborative development workflow to contribute features and integrate work across the team."
-
     skills:
       - label: Languages
         details: JavaScript, TypeScript, HTML, CSS
@@ -67,7 +64,6 @@ cv:
         details: Stripe, PayPal, Paymob, Cloudinary, EmailJS
       - label: Familiar With
         details: Nest.js, Zod, SQL, Prisma
-
     projects:
       - name: E-Commerce API
         start_date: 2026-08
@@ -80,7 +76,6 @@ cv:
           - "Implemented **JWT authentication, OTP verification, HTTP-only refresh-token cookies, session management, role-based authorization, request validation, rate limiting, and security middleware**."
           - "Used **Redis caching** for frequently accessed catalog data and integrated **Cloudinary, Stripe, PayPal, and Paymob**, including payment webhook flows."
           - "Added Docker support and interactive API documentation to simplify local development and API testing; product uploads support up to five images and list endpoints support pagination up to 100 items."
-
       - name: E-Commerce Platform (Monorepo)
         start_date: 2026-07
         end_date: 2026-08
@@ -90,7 +85,6 @@ cv:
         highlights:
           - "Built a scalable **Turborepo monorepo** with customer and admin applications plus shared UI, API, and utility packages."
           - "Implemented authentication, product and category management, shopping cart functionality, responsive layouts, and Stripe checkout using reusable architecture."
-
       - name: Next.js E-Commerce Platform
         start_date: 2026-05
         end_date: 2026-06
@@ -100,7 +94,6 @@ cv:
         highlights:
           - "Built a modern e-commerce application featuring product search, filtering, pagination, product details, responsive layouts, and dynamic API-driven content."
           - "Implemented persistent **cart and wishlist** state with **Redux Persist** and integrated the **DummyJSON REST API** through RTK Query."
-
       - name: Personal Portfolio Website
         start_date: 2026-04
         end_date: 2026-04
@@ -110,13 +103,11 @@ cv:
         highlights:
           - "Built a responsive portfolio using **Next.js 16 and TypeScript**, integrating the **GitHub API and Microlink API** for dynamic project content."
           - "Developed a contact system with **EmailJS and TanStack Form**, adding validation, notifications, theme persistence, and performance optimizations."
-
 design:
   theme: engineeringresumes
   page:
     show_footer: true
     show_top_note: true
-
 locale:
   language: english
   month_abbreviations:
@@ -132,7 +123,6 @@ locale:
     - Oct
     - Nov
     - Dec
-
 settings:
   render_command:
     output_folder: .
